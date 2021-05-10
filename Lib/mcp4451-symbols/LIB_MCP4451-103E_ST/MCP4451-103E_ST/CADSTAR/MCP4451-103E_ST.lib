@@ -1,0 +1,18 @@
+.MCP4451-103E_ST :1 ;MCP4451-103E/ST, Digital Potentiometer 10k 256-Position Linear 2-Channel Serial-SPI 20-Pin TSSOP
+SOP65P640X120-20N
+*STM IC
+*NGS
+*PLB 1="P3A" 2="P3W" 3="P3B" 4="HVC/A0" 5="SCL" 6="SDA" 7="VSS" 8="P1B" 9="P1W" 10="P1A" 11="P0A" 12="P0W" 13="P0B" 14="NC" 15="'RESET'" 16="A1" 17="VDD" 18="P2B" 19="P2W" 20="P2A"
+*MXP 20
+*DFN MCP4451-103E_ST
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (MCP4451-103E/ST)
+~!Mouser Part Number (579-MCP4451-103E/ST)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP4451-103E-ST/?qs=opbZS4J%2Fiz2FqmMPXQradQ%3D%3D)
+~!Arrow Part Number (MCP4451-103E/ST)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/mcp4451-103est/microchip-technology)
+~!Link Datasheet (http://ww1.microchip.com/downloads/en/DeviceDoc/MCP4451.pdf)
+~!Height (1.2mm)
+~!3D_Model (MCP4451-103E_ST)
+MCP4451-103E_ST
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 20.1!U 19.1!U 18.1!U 17.1!U 16.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 

@@ -1,0 +1,43 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MCP4451-103E_ST
+#/378511/496119/2.49/20/3/Integrated Circuit
+DEF MCP4451-103E_ST IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "MCP4451-103E_ST" 1150 200 50 H V L CNN
+F2 "SOP65P640X120-20N" 1150 100 50 H I L CNN
+F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP4451.pdf" 1150 0 50 H I L CNN
+F4 "MCP4451-103E/ST, Digital Potentiometer 10k 256-Position Linear 2-Channel Serial-SPI 20-Pin TSSOP" 1150 -100 50 H I L CNN "Description"
+F5 "1.2" 1150 -200 50 H I L CNN "Height"
+F6 "Microchip" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MCP4451-103E/ST" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "579-MCP4451-103E/ST" 1150 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP4451-103E-ST/?qs=opbZS4J%2Fiz2FqmMPXQradQ%3D%3D" 1150 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "MCP4451-103E/ST" 1150 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/mcp4451-103est/microchip-technology" 1150 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X P3A 1 0 0 200 R 50 50 0 0 P
+X P3W 2 0 -100 200 R 50 50 0 0 P
+X P3B 3 0 -200 200 R 50 50 0 0 P
+X HVC/A0 4 0 -300 200 R 50 50 0 0 P
+X SCL 5 0 -400 200 R 50 50 0 0 P
+X SDA 6 0 -500 200 R 50 50 0 0 P
+X VSS 7 0 -600 200 R 50 50 0 0 P
+X P1B 8 0 -700 200 R 50 50 0 0 P
+X P1W 9 0 -800 200 R 50 50 0 0 P
+X P1A 10 0 -900 200 R 50 50 0 0 P
+X P2A 20 1300 0 200 L 50 50 0 0 P
+X P2W 19 1300 -100 200 L 50 50 0 0 P
+X P2B 18 1300 -200 200 L 50 50 0 0 P
+X VDD 17 1300 -300 200 L 50 50 0 0 P
+X A1 16 1300 -400 200 L 50 50 0 0 P
+X ~RESET 15 1300 -500 200 L 50 50 0 0 P
+X NC 14 1300 -600 200 L 50 50 0 0 N
+X P0B 13 1300 -700 200 L 50 50 0 0 P
+X P0W 12 1300 -800 200 L 50 50 0 0 P
+X P0A 11 1300 -900 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -1000 200 -1000 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

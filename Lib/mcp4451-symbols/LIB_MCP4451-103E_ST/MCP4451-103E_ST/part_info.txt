@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=MCP4451-103E/ST
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=20
+Version=2.1
+Released=2019-03-04 12:43:20
+Downloaded=2021-05-10 15:16:18
+3D=Y

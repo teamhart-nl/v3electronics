@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MCP4451_103E_ST'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Microchip", "MCP4451-103E/ST" (!) = "", "SOP65P640X120-20N", "Small Outline Packages", "579-MCP4451-103E/ST", "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP4451-103E-ST/?qs=opbZS4J%2Fiz2FqmMPXQradQ%3D%3D", "MCP4451-103E/ST", "https://www.arrow.com/en/products/mcp4451-103est/microchip-technology", "MCP4451-103E/ST, Digital Potentiometer 10k 256-Position Linear 2-Channel Serial-SPI 20-Pin TSSOP", "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP4451.pdf", "1.2 mm"
+END_PART
+
+END.

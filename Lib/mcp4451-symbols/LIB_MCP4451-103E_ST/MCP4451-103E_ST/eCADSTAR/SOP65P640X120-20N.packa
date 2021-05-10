@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MCP4451-103E_ST"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-06-28-15:52:56)
+    (mountForm default
+        (footprintRef "SOP65P640X120-20N")
+        (spec "System")
+    )
+)

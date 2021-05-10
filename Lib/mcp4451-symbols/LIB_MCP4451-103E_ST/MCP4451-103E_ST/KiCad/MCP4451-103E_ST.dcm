@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP4451-103E_ST
+D MCP4451-103E/ST, Digital Potentiometer 10k 256-Position Linear 2-Channel Serial-SPI 20-Pin TSSOP
+K
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP4451.pdf
+$ENDCMP
+#
+#End Doc Library
