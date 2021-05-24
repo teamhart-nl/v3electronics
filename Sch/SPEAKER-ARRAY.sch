@@ -13,14 +13,14 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 1150 3700 0    50   Input ~ 0
-TeensySCL0
-Text GLabel 1150 3850 0    50   Input ~ 0
-TeensySDA0
-Text GLabel 4950 3850 0    50   Input ~ 0
-TeensySCL1
-Text GLabel 4950 3700 0    50   Input ~ 0
-TeensySDA1
+Text GLabel 1150 3700 0    50   BiDi ~ 0
+SCL0
+Text GLabel 1150 3850 0    50   BiDi ~ 0
+SDA0
+Text GLabel 4950 3850 0    50   BiDi ~ 0
+SCL1
+Text GLabel 4950 3700 0    50   BiDi ~ 0
+SDA1
 $Sheet
 S 2300 1600 1600 850 
 U 611AE4D8

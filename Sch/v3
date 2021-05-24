@@ -1,0 +1,30 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>KiCad BOM Example 5</title>
+    </head>
+    <body>
+    <h1>/Users/sandersteeghs/Data/Projects/Hart/v3electronics/Sch/v3.sch</h1>
+    <p>2021 May 24, Monday 17:13:33</p>
+    <p>Eeschema (5.1.9-0-10_14)</p>
+    <p><b>Component Count:</b>187</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
+    <tr><td>C1, C2, C3, C4, C15, C16, C17, C18, C29, C30, C31, C32, C43, C44, C45, C46, C57, C58, C59, C60, C71, C72, C73, C74</td><td>24</td><td>0.47uF</td><td>v3-rescue:C-Device</td><td></td><td></td><td></td></tr>
+    <tr><td>C5, C6, C19, C20, C33, C34, C47, C48, C61, C62, C75, C76</td><td>12</td><td>0.1uF</td><td>v3-rescue:C-Device</td><td></td><td></td><td></td></tr>
+    <tr><td>C7, C8, C9, C10, C13, C14, C21, C22, C23, C24, C27, C28, C35, C36, C37, C38, C41, C42, C49, C50, C51, C52, C55, C56, C63, C64, C65, C66, C69, C70, C77, C78, C79, C80, C83, C84</td><td>36</td><td>1uF</td><td>v3-rescue:C-Device</td><td></td><td></td><td></td></tr>
+    <tr><td>C11, C12, C25, C26, C39, C40, C53, C54, C67, C68, C81, C82</td><td>12</td><td>470uF</td><td>v3-rescue:C-Device</td><td></td><td></td><td></td></tr>
+    <tr><td>IC1, IC2, IC3, IC4, IC5, IC6</td><td>6</td><td>MCP4451-103E_ST</td><td>MCP4451-103E_ST:MCP4451-103E_ST</td><td>SOP65P640X120-20N</td><td>MCP4451-103E/ST, Digital Potentiometer 10k 256-Position Linear 2-Channel Serial-SPI 20-Pin TSSOP</td><td></td></tr>
+    <tr><td>LS1, LS2, LS3, LS4, LS5, LS6, LS7, LS8, LS9, LS10, LS11, LS12, LS13, LS14, LS15, LS16, LS17, LS18, LS19, LS20, LS21, LS22, LS23, LS24</td><td>24</td><td>Speaker</td><td>v3-rescue:Speaker-Device</td><td></td><td></td><td></td></tr>
+    <tr><td>R1, R2, R11, R12, R21, R22, R31, R32, R41, R42, R51, R52</td><td>12</td><td>2200</td><td>v3-rescue:R-Device</td><td></td><td></td><td></td></tr>
+    <tr><td>R3, R4, R5, R6, R13, R14, R15, R16, R23, R24, R25, R26, R33, R34, R35, R36, R43, R44, R45, R46, R53, R54, R55, R56</td><td>24</td><td>51000</td><td>v3-rescue:R-Device</td><td></td><td></td><td></td></tr>
+    <tr><td>R7, R8, R9, R10, R17, R18, R19, R20, R27, R28, R29, R30, R37, R38, R39, R40, R47, R48, R49, R50, R57, R58, R59, R60</td><td>24</td><td>10000</td><td>v3-rescue:R-Device</td><td></td><td></td><td></td></tr>
+    <tr><td>U1</td><td>1</td><td>Teensy4.0</td><td>teensy:Teensy4.0</td><td></td><td></td><td></td></tr>
+    <tr><td>U2, U3, U4, U5, U6, U7, U8, U9, U10, U11, U12, U13</td><td>12</td><td>PAM8403</td><td>PAM8403:PAM8403</td><td></td><td></td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    
