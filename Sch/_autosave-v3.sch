@@ -26,12 +26,6 @@ F 3 "" H 4600 3900 50  0001 C CNN
 $EndComp
 Text GLabel 3800 2350 0    50   Input ~ 0
 TeensyGND
-Text GLabel 3800 3850 0    50   Input ~ 0
-TeensyVDD
-Text GLabel 3800 4750 0    50   Input ~ 0
-TeensySDA0
-Text GLabel 3800 4850 0    50   Input ~ 0
-TeensySCL0
 Text GLabel 4900 5650 0    50   Input ~ 0
 TeensyGND
 $Comp
@@ -45,42 +39,6 @@ F 3 "" H 4900 5600 50  0001 C CNN
 	1    4900 5650
 	0    -1   -1   0   
 $EndComp
-Text GLabel 3800 4550 0    50   Input ~ 0
-TeensySCL1
-Text GLabel 3800 4650 0    50   Input ~ 0
-TeensySDA1
-Text GLabel 3800 2650 0    50   Input ~ 0
-Freq1
-Text GLabel 3800 2850 0    50   Input ~ 0
-Freq2
-Text GLabel 3800 2950 0    50   Input ~ 0
-Freq3
-Text GLabel 3800 3050 0    50   Input ~ 0
-Freq4
-Text GLabel 3800 3150 0    50   Input ~ 0
-Freq5
-Text GLabel 3800 3450 0    50   Input ~ 0
-Freq6
-Text GLabel 3800 3550 0    50   Input ~ 0
-Freq7
-Text GLabel 3800 3650 0    50   Input ~ 0
-Freq8
-Text GLabel 3800 4250 0    50   Input ~ 0
-Freq9
-Text GLabel 3800 4350 0    50   Input ~ 0
-Freq10
-Text GLabel 3800 4450 0    50   Input ~ 0
-Freq11
-Text GLabel 6200 5050 2    50   Input ~ 0
-Freq12
-Text GLabel 6200 3850 2    50   Input ~ 0
-Freq13
-Text GLabel 6200 3250 2    50   Input ~ 0
-Freq14
-Text GLabel 6200 2950 2    50   Input ~ 0
-Freq15
-Text GLabel 6200 2750 2    50   Input ~ 0
-Freq16
 Wire Wire Line
 	3800 2350 3900 2350
 Wire Wire Line
@@ -175,4 +133,46 @@ NoConn ~ 6100 2450
 NoConn ~ 6100 2350
 NoConn ~ 3900 3750
 NoConn ~ 3900 2750
+Text GLabel 3800 2650 0    50   Output ~ 0
+FREQ1
+Text GLabel 3800 2850 0    50   Output ~ 0
+FREQ2
+Text GLabel 3800 2950 0    50   Output ~ 0
+FREQ3
+Text GLabel 3800 3050 0    50   Output ~ 0
+FREQ4
+Text GLabel 3800 3150 0    50   Output ~ 0
+FREQ5
+Text GLabel 3800 3450 0    50   Output ~ 0
+FREQ6
+Text GLabel 3800 3550 0    50   Output ~ 0
+FREQ7
+Text GLabel 3800 3650 0    50   Output ~ 0
+FREQ8
+Text GLabel 3800 3850 0    50   Output ~ 0
+TeensyVDD
+Text GLabel 3800 4250 0    50   Output ~ 0
+FREQ9
+Text GLabel 3800 4350 0    50   Output ~ 0
+FREQ10
+Text GLabel 3800 4450 0    50   Output ~ 0
+FREQ11
+Text GLabel 3800 4550 0    50   BiDi ~ 0
+SCL1
+Text GLabel 3800 4650 0    50   BiDi ~ 0
+SDA1
+Text GLabel 3800 4750 0    50   BiDi ~ 0
+SDA0
+Text GLabel 3800 4850 0    50   BiDi ~ 0
+SCL0
+Text GLabel 6200 2750 2    50   Output ~ 0
+FREQ16
+Text GLabel 6200 2950 2    50   Output ~ 0
+FREQ15
+Text GLabel 6200 3250 2    50   Output ~ 0
+FREQ14
+Text GLabel 6200 3850 2    50   Output ~ 0
+FREQ13
+Text GLabel 6200 5050 2    50   Output ~ 0
+FREQ12
 $EndSCHEMATC
