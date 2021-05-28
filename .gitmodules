@@ -1,3 +1,9 @@
 [submodule "Lib/kicad-symbols"]
 	path = Lib/kicad-symbols
 	url = https://github.com/KiCad/kicad-symbols.git
+[submodule "Lib/kicad-footprints"]
+	path = Lib/kicad-footprints
+	url = https://gitlab.com/kicad/libraries/kicad-footprints.git
+[submodule "Lib/teensy.pretty"]
+	path = Lib/teensy.pretty
+	url = https://github.com/XenGi/teensy.pretty.git

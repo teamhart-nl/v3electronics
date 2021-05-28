@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 7
 Title "Perception V3"
 Date "2021-05-10"
 Rev "00"
@@ -16,175 +16,449 @@ $EndDescr
 $Comp
 L teensy:Teensy4.0 U1
 U 1 1 609956D3
-P 5000 3700
-F 0 "U1" H 5000 5315 50  0001 C CNN
-F 1 "Teensy4.0" H 5000 5224 50  0000 C CNN
-F 2 "" H 4600 3900 50  0001 C CNN
-F 3 "" H 4600 3900 50  0001 C CNN
-	1    5000 3700
+P 2300 2300
+F 0 "U1" H 2300 3915 50  0001 C CNN
+F 1 "Teensy4.0" H 2300 3824 50  0000 C CNN
+F 2 "Teensy:Teensy40_SMT" H 1900 2500 50  0001 C CNN
+F 3 "" H 1900 2500 50  0001 C CNN
+	1    2300 2300
 	1    0    0    -1  
 $EndComp
-Text GLabel 3800 2350 0    50   Input ~ 0
+Text GLabel 1100 950  0    50   Input ~ 0
 TeensyGND
-Text GLabel 4900 5650 0    50   Input ~ 0
+Text GLabel 2200 4250 0    50   Input ~ 0
 TeensyGND
 $Comp
 L power:GNDPWR #PWR01
 U 1 1 609FC16E
-P 4900 5650
-F 0 "#PWR01" H 4900 5450 50  0001 C CNN
-F 1 "GNDPWR" V 4905 5542 50  0000 R CNN
-F 2 "" H 4900 5600 50  0001 C CNN
-F 3 "" H 4900 5600 50  0001 C CNN
-	1    4900 5650
+P 2200 4250
+F 0 "#PWR01" H 2200 4050 50  0001 C CNN
+F 1 "GNDPWR" V 2205 4142 50  0000 R CNN
+F 2 "" H 2200 4200 50  0001 C CNN
+F 3 "" H 2200 4200 50  0001 C CNN
+	1    2200 4250
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3800 2350 3900 2350
+	1100 950  1200 950 
 Wire Wire Line
-	3800 2650 3900 2650
+	1100 1250 1200 1250
 Wire Wire Line
-	3800 2850 3900 2850
+	1100 1450 1200 1450
 Wire Wire Line
-	3800 2950 3900 2950
+	1100 1550 1200 1550
 Wire Wire Line
-	3800 3050 3900 3050
+	1100 1650 1200 1650
 Wire Wire Line
-	3800 3150 3900 3150
+	1100 1750 1200 1750
 Wire Wire Line
-	3800 3450 3900 3450
+	1100 2050 1200 2050
 Wire Wire Line
-	3800 3550 3900 3550
+	1100 2150 1200 2150
 Wire Wire Line
-	3800 3650 3900 3650
+	1100 2250 1200 2250
 Wire Wire Line
-	3800 4250 3900 4250
+	1100 2850 1200 2850
 Wire Wire Line
-	3800 4350 3900 4350
+	1100 2950 1200 2950
 Wire Wire Line
-	3800 4450 3900 4450
+	1100 3050 1200 3050
 Wire Wire Line
-	3800 4550 3900 4550
+	1100 3150 1200 3150
 Wire Wire Line
-	3800 4650 3900 4650
+	1100 3250 1200 3250
 Wire Wire Line
-	3800 4750 3900 4750
+	1100 3350 1200 3350
 Wire Wire Line
-	3800 4850 3900 4850
+	1100 3450 1200 3450
 Wire Wire Line
-	6100 2750 6200 2750
+	3400 1350 3500 1350
 Wire Wire Line
-	6100 2950 6200 2950
+	3400 1550 3500 1550
 Wire Wire Line
-	6100 3250 6200 3250
+	3400 1850 3500 1850
 Wire Wire Line
-	6100 3850 6200 3850
+	3400 2450 3500 2450
 Wire Wire Line
-	6100 5050 6200 5050
-$Sheet
-S 6950 1650 3900 4200
-U 60B3C664
-F0 "SPEAKER-ARRAY" 50
-F1 "SPEAKER-ARRAY.sch" 50
-$EndSheet
+	3400 3650 3500 3650
 $Comp
 L power:+3.3V #PWR0101
 U 1 1 61A8BD0D
-P 6200 4650
-F 0 "#PWR0101" H 6200 4500 50  0001 C CNN
-F 1 "+3.3V" H 6215 4823 50  0000 C CNN
-F 2 "" H 6200 4650 50  0001 C CNN
-F 3 "" H 6200 4650 50  0001 C CNN
-	1    6200 4650
+P 3500 3250
+F 0 "#PWR0101" H 3500 3100 50  0001 C CNN
+F 1 "+3.3V" H 3515 3423 50  0000 C CNN
+F 2 "" H 3500 3250 50  0001 C CNN
+F 3 "" H 3500 3250 50  0001 C CNN
+	1    3500 3250
 	0    1    1    0   
 $EndComp
-NoConn ~ 3900 2450
-NoConn ~ 3900 2550
-NoConn ~ 3900 3250
-NoConn ~ 3900 3350
-NoConn ~ 3900 3950
-NoConn ~ 3900 4050
-NoConn ~ 3900 4150
-NoConn ~ 3900 4950
-NoConn ~ 3900 5050
-NoConn ~ 6100 4950
-NoConn ~ 6100 4750
-NoConn ~ 6100 4550
-NoConn ~ 6100 4250
-NoConn ~ 6100 4150
-NoConn ~ 6100 4050
-NoConn ~ 6100 3950
-NoConn ~ 6100 3750
-NoConn ~ 6100 3650
-NoConn ~ 6100 3550
-NoConn ~ 6100 3450
-NoConn ~ 6100 3350
-NoConn ~ 6100 3150
-NoConn ~ 6100 3050
-NoConn ~ 6100 2850
-NoConn ~ 6100 2650
-NoConn ~ 6100 2550
-NoConn ~ 6100 2450
-NoConn ~ 6100 2350
-NoConn ~ 3900 3750
-NoConn ~ 3900 2750
-Text GLabel 3800 2650 0    50   Output ~ 0
+NoConn ~ 1200 1050
+NoConn ~ 1200 1150
+NoConn ~ 1200 1850
+NoConn ~ 1200 1950
+NoConn ~ 1200 2550
+NoConn ~ 1200 2650
+NoConn ~ 1200 2750
+NoConn ~ 1200 3550
+NoConn ~ 1200 3650
+NoConn ~ 3400 3550
+NoConn ~ 3400 3350
+NoConn ~ 3400 3150
+NoConn ~ 3400 2850
+NoConn ~ 3400 2750
+NoConn ~ 3400 2650
+NoConn ~ 3400 2550
+NoConn ~ 3400 2350
+NoConn ~ 3400 2250
+NoConn ~ 3400 2150
+NoConn ~ 3400 2050
+NoConn ~ 3400 1950
+NoConn ~ 3400 1750
+NoConn ~ 3400 1650
+NoConn ~ 3400 1450
+NoConn ~ 3400 1250
+NoConn ~ 3400 1150
+NoConn ~ 3400 1050
+NoConn ~ 3400 950 
+NoConn ~ 1200 2350
+NoConn ~ 1200 1350
+Text GLabel 1100 1250 0    50   Output ~ 0
 FREQ1
-Text GLabel 3800 2850 0    50   Output ~ 0
+Text GLabel 1100 1450 0    50   Output ~ 0
 FREQ2
-Text GLabel 3800 2950 0    50   Output ~ 0
+Text GLabel 1100 1550 0    50   Output ~ 0
 FREQ3
-Text GLabel 3800 3050 0    50   Output ~ 0
+Text GLabel 1100 1650 0    50   Output ~ 0
 FREQ4
-Text GLabel 3800 3150 0    50   Output ~ 0
+Text GLabel 1100 1750 0    50   Output ~ 0
 FREQ5
-Text GLabel 3800 3450 0    50   Output ~ 0
+Text GLabel 1100 2050 0    50   Output ~ 0
 FREQ6
-Text GLabel 3800 3550 0    50   Output ~ 0
+Text GLabel 1100 2150 0    50   Output ~ 0
 FREQ7
-Text GLabel 3800 3650 0    50   Output ~ 0
+Text GLabel 1100 2250 0    50   Output ~ 0
 FREQ8
-Text GLabel 6200 4850 2    50   Output ~ 0
+Text GLabel 3500 3450 2    50   Output ~ 0
 TeensyVDD
-Text GLabel 3800 4250 0    50   Output ~ 0
+Text GLabel 1100 2850 0    50   Output ~ 0
 FREQ9
-Text GLabel 3800 4350 0    50   Output ~ 0
+Text GLabel 1100 2950 0    50   Output ~ 0
 FREQ10
-Text GLabel 3800 4450 0    50   Output ~ 0
+Text GLabel 1100 3050 0    50   Output ~ 0
 FREQ11
-Text GLabel 3800 4550 0    50   BiDi ~ 0
+Text GLabel 1100 3150 0    50   BiDi ~ 0
 SCL1
-Text GLabel 3800 4650 0    50   BiDi ~ 0
+Text GLabel 1100 3250 0    50   BiDi ~ 0
 SDA1
-Text GLabel 3800 4750 0    50   BiDi ~ 0
+Text GLabel 1100 3350 0    50   BiDi ~ 0
 SDA0
-Text GLabel 3800 4850 0    50   BiDi ~ 0
+Text GLabel 1100 3450 0    50   BiDi ~ 0
 SCL0
-Text GLabel 6200 2750 2    50   Output ~ 0
+Text GLabel 3500 1350 2    50   Output ~ 0
 FREQ16
-Text GLabel 6200 2950 2    50   Output ~ 0
+Text GLabel 3500 1550 2    50   Output ~ 0
 FREQ15
-Text GLabel 6200 3250 2    50   Output ~ 0
+Text GLabel 3500 1850 2    50   Output ~ 0
 FREQ14
-Text GLabel 6200 3850 2    50   Output ~ 0
+Text GLabel 3500 2450 2    50   Output ~ 0
 FREQ13
-Text GLabel 6200 5050 2    50   Output ~ 0
+Text GLabel 3500 3650 2    50   Output ~ 0
 FREQ12
-NoConn ~ 3900 3850
+NoConn ~ 1200 2450
 Wire Wire Line
-	6100 4850 6200 4850
+	3400 3450 3500 3450
 Wire Wire Line
-	6100 4650 6200 4650
+	3400 3250 3500 3250
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 60B5B8FC
-P 6200 4650
-F 0 "#FLG0101" H 6200 4725 50  0001 C CNN
-F 1 "PWR_FLAG" H 6200 4823 50  0000 C CNN
-F 2 "" H 6200 4650 50  0001 C CNN
-F 3 "~" H 6200 4650 50  0001 C CNN
-	1    6200 4650
+P 3500 3250
+F 0 "#FLG0101" H 3500 3325 50  0001 C CNN
+F 1 "PWR_FLAG" H 3500 3423 50  0000 C CNN
+F 2 "" H 3500 3250 50  0001 C CNN
+F 3 "~" H 3500 3250 50  0001 C CNN
+	1    3500 3250
 	1    0    0    -1  
 $EndComp
-Connection ~ 6200 4650
+Connection ~ 3500 3250
+Text GLabel 4500 4400 0    50   BiDi ~ 0
+SCL0
+Text GLabel 4500 4550 0    50   BiDi ~ 0
+SDA0
+Text GLabel 7800 2950 0    50   BiDi ~ 0
+SCL1
+Text GLabel 7800 2800 0    50   BiDi ~ 0
+SDA1
+$Sheet
+S 5650 850  1600 850 
+U 60B20945
+F0 "sheet60B20934" 50
+F1 "AMP-SPEAKER.sch" 50
+F2 "SCL" I L 5650 1200 50 
+F3 "SDA" I L 5650 1350 50 
+F4 "P1A" I L 5650 1000 50 
+F5 "P0A" I L 5650 900 50 
+F6 "P2A" I L 5650 1550 50 
+F7 "P3A" I L 5650 1650 50 
+$EndSheet
+$Sheet
+S 5650 2000 1600 850 
+U 60B2094D
+F0 "sheet60B20935" 50
+F1 "AMP-SPEAKER.sch" 50
+F2 "SCL" I L 5650 2350 50 
+F3 "SDA" I L 5650 2500 50 
+F4 "P1A" I L 5650 2150 50 
+F5 "P0A" I L 5650 2050 50 
+F6 "P2A" I L 5650 2700 50 
+F7 "P3A" I L 5650 2800 50 
+$EndSheet
+$Sheet
+S 5650 3150 1600 850 
+U 60B20955
+F0 "sheet60B20936" 50
+F1 "AMP-SPEAKER.sch" 50
+F2 "SCL" I L 5650 3500 50 
+F3 "SDA" I L 5650 3650 50 
+F4 "P1A" I L 5650 3300 50 
+F5 "P0A" I L 5650 3200 50 
+F6 "P2A" I L 5650 3850 50 
+F7 "P3A" I L 5650 3950 50 
+$EndSheet
+$Sheet
+S 5650 4300 1600 850 
+U 60B2095D
+F0 "sheet60B20937" 50
+F1 "AMP-SPEAKER.sch" 50
+F2 "SCL" I L 5650 4650 50 
+F3 "SDA" I L 5650 4800 50 
+F4 "P1A" I L 5650 4450 50 
+F5 "P0A" I L 5650 4350 50 
+F6 "P2A" I L 5650 5000 50 
+F7 "P3A" I L 5650 5100 50 
+$EndSheet
+$Sheet
+S 8800 1900 1600 850 
+U 60B20965
+F0 "sheet60B20938" 50
+F1 "AMP-SPEAKER.sch" 50
+F2 "SCL" I L 8800 2250 50 
+F3 "SDA" I L 8800 2400 50 
+F4 "P1A" I L 8800 2050 50 
+F5 "P0A" I L 8800 1950 50 
+F6 "P2A" I L 8800 2600 50 
+F7 "P3A" I L 8800 2700 50 
+$EndSheet
+$Sheet
+S 8800 3050 1600 850 
+U 60B2096D
+F0 "sheet60B20939" 50
+F1 "AMP-SPEAKER.sch" 50
+F2 "SCL" I L 8800 3400 50 
+F3 "SDA" I L 8800 3550 50 
+F4 "P1A" I L 8800 3200 50 
+F5 "P0A" I L 8800 3100 50 
+F6 "P2A" I L 8800 3750 50 
+F7 "P3A" I L 8800 3850 50 
+$EndSheet
+Wire Wire Line
+	7800 2950 8000 2950
+Wire Wire Line
+	8000 2950 8000 2250
+Wire Wire Line
+	7800 2800 8250 2800
+Wire Wire Line
+	8250 2800 8250 2400
+Wire Wire Line
+	8250 2800 8250 3550
+Connection ~ 8250 2800
+Wire Wire Line
+	8000 2950 8000 3400
+Connection ~ 8000 2950
+Wire Wire Line
+	4500 4400 4750 4400
+Wire Wire Line
+	4750 1200 5650 1200
+Wire Wire Line
+	5650 2350 4750 2350
+Connection ~ 4750 2350
+Wire Wire Line
+	4750 2350 4750 1200
+Wire Wire Line
+	4750 4650 5650 4650
+Wire Wire Line
+	5650 3500 4750 3500
+Connection ~ 4750 3500
+Wire Wire Line
+	4750 3500 4750 4400
+Wire Wire Line
+	4500 4550 4850 4550
+Wire Wire Line
+	4850 4800 5650 4800
+Wire Wire Line
+	5650 3650 4850 3650
+Connection ~ 4850 3650
+Wire Wire Line
+	4850 3650 4850 4550
+Wire Wire Line
+	5650 2500 4850 2500
+Wire Wire Line
+	5650 1350 4850 1350
+Wire Wire Line
+	4850 1350 4850 2500
+Connection ~ 4850 2500
+Text GLabel 8700 3150 0    50   Input ~ 0
+FREQ15
+Text GLabel 8700 3800 0    50   Input ~ 0
+FREQ16
+Text GLabel 8650 2000 0    50   Input ~ 0
+FREQ13
+Text GLabel 8650 2650 0    50   Input ~ 0
+FREQ14
+Text GLabel 5550 900  0    50   Input ~ 0
+FREQ1
+Text GLabel 5550 1000 0    50   Input ~ 0
+FREQ2
+Text GLabel 5550 1550 0    50   Input ~ 0
+FREQ3
+Text GLabel 5550 1650 0    50   Input ~ 0
+FREQ4
+Text GLabel 5550 2050 0    50   Input ~ 0
+FREQ5
+Text GLabel 5550 2150 0    50   Input ~ 0
+FREQ6
+Text GLabel 5550 2700 0    50   Input ~ 0
+FREQ7
+Text GLabel 5550 2800 0    50   Input ~ 0
+FREQ8
+Text GLabel 5550 3250 0    50   Input ~ 0
+FREQ9
+Text GLabel 5550 3900 0    50   Input ~ 0
+FREQ10
+Text GLabel 5550 4400 0    50   Input ~ 0
+FREQ11
+Text GLabel 5550 5050 0    50   Input ~ 0
+FREQ12
+Wire Wire Line
+	8700 3800 8750 3800
+Wire Wire Line
+	8750 3800 8750 3750
+Wire Wire Line
+	8750 3750 8800 3750
+Wire Wire Line
+	8800 3850 8750 3850
+Wire Wire Line
+	8750 3850 8750 3800
+Connection ~ 8750 3800
+Wire Wire Line
+	8700 3150 8750 3150
+Wire Wire Line
+	8750 3150 8750 3100
+Wire Wire Line
+	8750 3100 8800 3100
+Wire Wire Line
+	8800 3200 8750 3200
+Wire Wire Line
+	8750 3200 8750 3150
+Connection ~ 8750 3150
+Wire Wire Line
+	8650 2650 8750 2650
+Wire Wire Line
+	8750 2650 8750 2600
+Wire Wire Line
+	8750 2600 8800 2600
+Wire Wire Line
+	8800 2700 8750 2700
+Wire Wire Line
+	8750 2700 8750 2650
+Connection ~ 8750 2650
+Wire Wire Line
+	8650 2000 8750 2000
+Wire Wire Line
+	8750 2000 8750 2050
+Wire Wire Line
+	8750 2050 8800 2050
+Wire Wire Line
+	8800 1950 8750 1950
+Wire Wire Line
+	8750 1950 8750 2000
+Connection ~ 8750 2000
+Wire Wire Line
+	8250 2400 8800 2400
+Wire Wire Line
+	8000 2250 8800 2250
+Wire Wire Line
+	8250 3550 8800 3550
+Wire Wire Line
+	8000 3400 8800 3400
+Wire Wire Line
+	5600 5050 5600 5000
+Wire Wire Line
+	5600 5000 5650 5000
+Wire Wire Line
+	5550 5050 5600 5050
+Wire Wire Line
+	5600 5100 5600 5050
+Connection ~ 5600 5050
+Wire Wire Line
+	5600 5100 5650 5100
+Wire Wire Line
+	5550 4400 5600 4400
+Wire Wire Line
+	5600 4400 5600 4350
+Wire Wire Line
+	5600 4350 5650 4350
+Wire Wire Line
+	5650 4450 5600 4450
+Wire Wire Line
+	5600 4450 5600 4400
+Connection ~ 5600 4400
+Wire Wire Line
+	5550 3900 5600 3900
+Wire Wire Line
+	5600 3900 5600 3850
+Wire Wire Line
+	5600 3850 5650 3850
+Wire Wire Line
+	5650 3950 5600 3950
+Wire Wire Line
+	5600 3950 5600 3900
+Connection ~ 5600 3900
+Wire Wire Line
+	5550 3250 5600 3250
+Wire Wire Line
+	5600 3250 5600 3200
+Wire Wire Line
+	5600 3200 5650 3200
+Wire Wire Line
+	5650 3300 5600 3300
+Wire Wire Line
+	5600 3250 5600 3300
+Connection ~ 5600 3250
+Wire Wire Line
+	5550 2700 5650 2700
+Wire Wire Line
+	5550 2800 5650 2800
+Wire Wire Line
+	5550 2050 5650 2050
+Wire Wire Line
+	5550 2150 5650 2150
+Wire Wire Line
+	5550 1550 5650 1550
+Wire Wire Line
+	5550 1650 5650 1650
+Wire Wire Line
+	5550 1000 5650 1000
+Wire Wire Line
+	5550 900  5650 900 
+Connection ~ 4750 4400
+Wire Wire Line
+	4750 4400 4750 4650
+Connection ~ 4850 4550
+Wire Wire Line
+	4850 4550 4850 4800
+Wire Wire Line
+	4750 2350 4750 3500
+Wire Wire Line
+	4850 2500 4850 3650
 $EndSCHEMATC
