@@ -60,18 +60,18 @@ F8 "A0" I R 7250 3250 50
 F9 "A1" I R 7250 3350 50 
 $EndSheet
 $Sheet
-S 5650 4300 1600 850 
+S 9000 900  1600 850 
 U 60B2095D
 F0 "sheet60B20937" 50
 F1 "AMP-SPEAKER.sch" 50
-F2 "SCL" I L 5650 4650 50 
-F3 "SDA" I L 5650 4800 50 
-F4 "P1A" I L 5650 4450 50 
-F5 "P0A" I L 5650 4350 50 
-F6 "P2A" I L 5650 5000 50 
-F7 "P3A" I L 5650 5100 50 
-F8 "A0" I R 7250 4400 50 
-F9 "A1" I R 7250 4500 50 
+F2 "SCL" I L 9000 1250 50 
+F3 "SDA" I L 9000 1400 50 
+F4 "P1A" I L 9000 1050 50 
+F5 "P0A" I L 9000 950 50 
+F6 "P2A" I L 9000 1600 50 
+F7 "P3A" I L 9000 1700 50 
+F8 "A0" I R 10600 1000 50 
+F9 "A1" I R 10600 1100 50 
 $EndSheet
 $Sheet
 S 9000 1950 1600 850 
@@ -116,7 +116,7 @@ Wire Wire Line
 	8200 3000 8200 3450
 Connection ~ 8200 3000
 Wire Wire Line
-	4500 4400 4750 4400
+	4500 3150 4750 3150
 Wire Wire Line
 	4750 1200 5650 1200
 Wire Wire Line
@@ -125,19 +125,11 @@ Connection ~ 4750 2350
 Wire Wire Line
 	4750 2350 4750 1200
 Wire Wire Line
-	4750 4650 5650 4650
-Wire Wire Line
 	5650 3500 4750 3500
-Connection ~ 4750 3500
 Wire Wire Line
-	4750 3500 4750 3950
-Wire Wire Line
-	4500 4550 4850 4550
-Wire Wire Line
-	4850 4800 5650 4800
+	4500 3300 4850 3300
 Wire Wire Line
 	5650 3650 4850 3650
-Connection ~ 4850 3650
 Wire Wire Line
 	5650 2500 4850 2500
 Wire Wire Line
@@ -173,9 +165,9 @@ Text GLabel 5550 3250 0    50   Input ~ 0
 FREQ9
 Text GLabel 5550 3900 0    50   Input ~ 0
 FREQ10
-Text GLabel 5550 4400 0    50   Input ~ 0
+Text GLabel 8900 1000 0    50   Input ~ 0
 FREQ11
-Text GLabel 5550 5050 0    50   Input ~ 0
+Text GLabel 8900 1650 0    50   Input ~ 0
 FREQ12
 Wire Wire Line
 	8900 3850 8950 3850
@@ -230,27 +222,27 @@ Wire Wire Line
 Wire Wire Line
 	8200 3450 9000 3450
 Wire Wire Line
-	5600 5050 5600 5000
+	8950 1650 8950 1600
 Wire Wire Line
-	5600 5000 5650 5000
+	8950 1600 9000 1600
 Wire Wire Line
-	5550 5050 5600 5050
+	8900 1650 8950 1650
 Wire Wire Line
-	5600 5100 5600 5050
-Connection ~ 5600 5050
+	8950 1700 8950 1650
+Connection ~ 8950 1650
 Wire Wire Line
-	5600 5100 5650 5100
+	8950 1700 9000 1700
 Wire Wire Line
-	5550 4400 5600 4400
+	8900 1000 8950 1000
 Wire Wire Line
-	5600 4400 5600 4350
+	8950 1000 8950 950 
 Wire Wire Line
-	5600 4350 5650 4350
+	8950 950  9000 950 
 Wire Wire Line
-	5650 4450 5600 4450
+	9000 1050 8950 1050
 Wire Wire Line
-	5600 4450 5600 4400
-Connection ~ 5600 4400
+	8950 1050 8950 1000
+Connection ~ 8950 1000
 Wire Wire Line
 	5550 3900 5600 3900
 Wire Wire Line
@@ -289,25 +281,19 @@ Wire Wire Line
 	5550 1000 5650 1000
 Wire Wire Line
 	5550 900  5650 900 
-Connection ~ 4750 4400
 Wire Wire Line
-	4750 4400 4750 4650
-Connection ~ 4850 4550
+	4750 2350 4750 2700
 Wire Wire Line
-	4850 4550 4850 4800
-Wire Wire Line
-	4750 2350 4750 3500
-Wire Wire Line
-	4850 2500 4850 3650
+	4850 2500 4850 2850
 Text GLabel 7350 1000 2    50   Input ~ 0
 TeensyGND
 Text GLabel 7350 2200 2    50   Input ~ 0
 TeensyGND
 Text GLabel 7350 3250 2    50   Input ~ 0
 TeensyGND
-Text GLabel 10700 2100 2    50   Input ~ 0
+Text GLabel 10700 1050 2    50   Input ~ 0
 TeensyGND
-Text GLabel 10700 3300 2    50   Input ~ 0
+Text GLabel 10700 3200 2    50   Input ~ 0
 TeensyGND
 Wire Wire Line
 	7250 950  7300 950 
@@ -326,25 +312,12 @@ Wire Wire Line
 	7250 3350 7350 3350
 Wire Wire Line
 	10600 3200 10700 3200
-Wire Wire Line
-	10600 2050 10650 2050
-Wire Wire Line
-	10650 2050 10650 2100
-Wire Wire Line
-	10650 2100 10700 2100
-Wire Wire Line
-	10600 2150 10650 2150
-Wire Wire Line
-	10650 2150 10650 2100
-Connection ~ 10650 2100
 Text GLabel 7350 2100 2    50   Input ~ 0
-TeensyVVD
+TeensyVDD
 Text GLabel 7350 3350 2    50   Input ~ 0
-TeensyVVD
-Text GLabel 7350 4450 2    50   Input ~ 0
-TeensyVVD
-Text GLabel 10700 3200 2    50   Input ~ 0
-TeensyVVD
+TeensyVDD
+Text GLabel 10700 3300 2    50   Input ~ 0
+TeensyVDD
 Wire Wire Line
 	10600 3300 10700 3300
 Wire Wire Line
@@ -352,16 +325,16 @@ Wire Wire Line
 Wire Wire Line
 	7250 3250 7350 3250
 Wire Wire Line
-	7250 4400 7300 4400
+	10600 1000 10650 1000
 Wire Wire Line
-	7300 4400 7300 4450
+	10650 1000 10650 1050
 Wire Wire Line
-	7300 4450 7350 4450
+	10650 1050 10700 1050
 Wire Wire Line
-	7250 4500 7300 4500
+	10600 1100 10650 1100
 Wire Wire Line
-	7300 4500 7300 4450
-Connection ~ 7300 4450
+	10650 1100 10650 1050
+Connection ~ 10650 1050
 Text GLabel 2850 2700 2    50   Output ~ 0
 FREQ8
 Wire Wire Line
@@ -426,9 +399,9 @@ Text GLabel 2850 3700 2    50   BiDi ~ 0
 SDA0
 Text GLabel 2850 3600 2    50   BiDi ~ 0
 SCL0
-Text GLabel 4500 4550 0    50   BiDi ~ 0
+Text GLabel 4500 3300 0    50   BiDi ~ 0
 SDA0
-Text GLabel 4500 4400 0    50   BiDi ~ 0
+Text GLabel 4500 3150 0    50   BiDi ~ 0
 SCL0
 Wire Wire Line
 	2750 3900 2850 3900
@@ -500,10 +473,10 @@ F 3 "~" H 2450 1060 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR01
+L power:GND #PWR02
 U 1 1 60E483FB
 P 3900 1350
-F 0 "#PWR01" H 3900 1100 50  0001 C CNN
+F 0 "#PWR02" H 3900 1100 50  0001 C CNN
 F 1 "GND" H 3905 1177 50  0000 C CNN
 F 2 "" H 3900 1350 50  0001 C CNN
 F 3 "" H 3900 1350 50  0001 C CNN
@@ -514,10 +487,10 @@ Connection ~ 3150 1000
 Wire Wire Line
 	3150 1000 3250 1000
 $Comp
-L power:+5V #PWR02
+L power:+5V #PWR01
 U 1 1 60E5F6BA
 P 2850 1000
-F 0 "#PWR02" H 2850 850 50  0001 C CNN
+F 0 "#PWR01" H 2850 850 50  0001 C CNN
 F 1 "+5V" H 2865 1173 50  0000 C CNN
 F 2 "" H 2850 1000 50  0001 C CNN
 F 3 "" H 2850 1000 50  0001 C CNN
@@ -535,7 +508,7 @@ Wire Wire Line
 $Comp
 L v3-rescue:R-Device R2
 U 1 1 60C4431E
-P 4550 4100
+P 4550 2850
 AR Path="/60C4431E" Ref="R2"  Part="1" 
 AR Path="/60B3C664/60C4431E" Ref="R?"  Part="1" 
 AR Path="/60B3C664/60D625EB/60C4431E" Ref="R?"  Part="1" 
@@ -556,17 +529,17 @@ AR Path="/60B20955/60C4431E" Ref="R?"  Part="1"
 AR Path="/60B2095D/60C4431E" Ref="R?"  Part="1" 
 AR Path="/60B20965/60C4431E" Ref="R?"  Part="1" 
 AR Path="/60B2096D/60C4431E" Ref="R?"  Part="1" 
-F 0 "R2" V 4343 4100 50  0001 C CNN
-F 1 "2200" V 4434 4100 50  0001 C CNN
-F 2 "SMD Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 4480 4100 50  0001 C CNN
-F 3 "~" H 4550 4100 50  0001 C CNN
-	1    4550 4100
+F 0 "R2" V 4343 2850 50  0001 C CNN
+F 1 "2200" V 4434 2850 50  0001 C CNN
+F 2 "SMD Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 4480 2850 50  0001 C CNN
+F 3 "~" H 4550 2850 50  0001 C CNN
+	1    4550 2850
 	0    1    1    0   
 $EndComp
 $Comp
 L v3-rescue:R-Device R1
 U 1 1 60C44324
-P 4550 3950
+P 4550 2700
 AR Path="/60C44324" Ref="R1"  Part="1" 
 AR Path="/60B3C664/60C44324" Ref="R?"  Part="1" 
 AR Path="/60B3C664/60D625EB/60C44324" Ref="R?"  Part="1" 
@@ -587,34 +560,26 @@ AR Path="/60B20955/60C44324" Ref="R?"  Part="1"
 AR Path="/60B2095D/60C44324" Ref="R?"  Part="1" 
 AR Path="/60B20965/60C44324" Ref="R?"  Part="1" 
 AR Path="/60B2096D/60C44324" Ref="R?"  Part="1" 
-F 0 "R1" V 4343 3950 50  0001 C CNN
-F 1 "2200" V 4434 3950 50  0001 C CNN
-F 2 "SMD Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 4480 3950 50  0001 C CNN
-F 3 "~" H 4550 3950 50  0001 C CNN
-	1    4550 3950
+F 0 "R1" V 4343 2700 50  0001 C CNN
+F 1 "2200" V 4434 2700 50  0001 C CNN
+F 2 "SMD Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 4480 2700 50  0001 C CNN
+F 3 "~" H 4550 2700 50  0001 C CNN
+	1    4550 2700
 	0    1    1    0   
 $EndComp
-Text GLabel 4400 4100 0    50   Input ~ 0
+Text GLabel 4400 2850 0    50   Input ~ 0
 TeensyVDD
-Text GLabel 4400 3950 0    50   Input ~ 0
+Text GLabel 4400 2700 0    50   Input ~ 0
 TeensyVDD
 Wire Wire Line
-	4700 3950 4750 3950
-Connection ~ 4750 3950
+	4700 2700 4750 2700
 Wire Wire Line
-	4750 3950 4750 4400
-Wire Wire Line
-	4700 4100 4850 4100
-Wire Wire Line
-	4850 3650 4850 4100
-Connection ~ 4850 4100
-Wire Wire Line
-	4850 4100 4850 4550
+	4700 2850 4850 2850
 $Comp
-L v3-rescue:R-Device R8
+L v3-rescue:R-Device R4
 U 1 1 60C65139
 P 8000 2650
-AR Path="/60C65139" Ref="R8"  Part="1" 
+AR Path="/60C65139" Ref="R4"  Part="1" 
 AR Path="/60B3C664/60C65139" Ref="R?"  Part="1" 
 AR Path="/60B3C664/60D625EB/60C65139" Ref="R?"  Part="1" 
 AR Path="/60B3C664/61161B92/60C65139" Ref="R?"  Part="1" 
@@ -634,7 +599,7 @@ AR Path="/60B20955/60C65139" Ref="R?"  Part="1"
 AR Path="/60B2095D/60C65139" Ref="R?"  Part="1" 
 AR Path="/60B20965/60C65139" Ref="R?"  Part="1" 
 AR Path="/60B2096D/60C65139" Ref="R?"  Part="1" 
-F 0 "R8" V 7793 2650 50  0001 C CNN
+F 0 "R4" V 7793 2650 50  0001 C CNN
 F 1 "2200" V 7884 2650 50  0001 C CNN
 F 2 "SMD Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 7930 2650 50  0001 C CNN
 F 3 "~" H 8000 2650 50  0001 C CNN
@@ -642,10 +607,10 @@ F 3 "~" H 8000 2650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L v3-rescue:R-Device R7
+L v3-rescue:R-Device R3
 U 1 1 60C6513F
 P 8000 2500
-AR Path="/60C6513F" Ref="R7"  Part="1" 
+AR Path="/60C6513F" Ref="R3"  Part="1" 
 AR Path="/60B3C664/60C6513F" Ref="R?"  Part="1" 
 AR Path="/60B3C664/60D625EB/60C6513F" Ref="R?"  Part="1" 
 AR Path="/60B3C664/61161B92/60C6513F" Ref="R?"  Part="1" 
@@ -665,7 +630,7 @@ AR Path="/60B20955/60C6513F" Ref="R?"  Part="1"
 AR Path="/60B2095D/60C6513F" Ref="R?"  Part="1" 
 AR Path="/60B20965/60C6513F" Ref="R?"  Part="1" 
 AR Path="/60B2096D/60C6513F" Ref="R?"  Part="1" 
-F 0 "R7" V 7793 2500 50  0001 C CNN
+F 0 "R3" V 7793 2500 50  0001 C CNN
 F 1 "2200" V 7884 2500 50  0001 C CNN
 F 2 "SMD Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 7930 2500 50  0001 C CNN
 F 3 "~" H 8000 2500 50  0001 C CNN
@@ -686,4 +651,34 @@ Wire Wire Line
 Connection ~ 8450 2650
 Wire Wire Line
 	8450 2650 8450 2450
+Connection ~ 4750 2700
+Wire Wire Line
+	4750 2700 4750 3150
+Connection ~ 4750 3150
+Wire Wire Line
+	4750 3150 4750 3500
+Connection ~ 4850 2850
+Wire Wire Line
+	4850 2850 4850 3300
+Connection ~ 4850 3300
+Wire Wire Line
+	4850 3300 4850 3650
+Text GLabel 10750 2150 2    50   Input ~ 0
+TeensyGND
+Text GLabel 10750 2050 2    50   Input ~ 0
+TeensyVDD
+Wire Wire Line
+	10600 2050 10750 2050
+Wire Wire Line
+	10600 2150 10750 2150
+Wire Wire Line
+	8450 2450 8450 1400
+Wire Wire Line
+	8450 1400 9000 1400
+Connection ~ 8450 2450
+Wire Wire Line
+	9000 1250 8200 1250
+Wire Wire Line
+	8200 1250 8200 2300
+Connection ~ 8200 2300
 $EndSCHEMATC
