@@ -3,188 +3,687 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
-Title "Perception V3"
+Sheet 1 7
+Title "Perception V3.0"
 Date "2021-05-10"
 Rev "00"
 Comp "Team HART"
-Comment1 "PROTOTYPE"
+Comment1 "PROTOTYPE DO NOT DISTRIBUTE"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text GLabel 8000 3000 0    50   BiDi ~ 0
+SCL1
+Text GLabel 8000 2850 0    50   BiDi ~ 0
+SDA1
+$Sheet
+S 5650 850  1600 850 
+U 60B20945
+F0 "sheet60B20934" 50
+F1 "AMP-SPEAKER.sch" 50
+F2 "SCL" I L 5650 1200 50 
+F3 "SDA" I L 5650 1350 50 
+F4 "P1A" I L 5650 1000 50 
+F5 "P0A" I L 5650 900 50 
+F6 "P2A" I L 5650 1550 50 
+F7 "P3A" I L 5650 1650 50 
+F8 "A0" I R 7250 950 50 
+F9 "A1" I R 7250 1050 50 
+$EndSheet
+$Sheet
+S 5650 2000 1600 850 
+U 60B2094D
+F0 "sheet60B20935" 50
+F1 "AMP-SPEAKER.sch" 50
+F2 "SCL" I L 5650 2350 50 
+F3 "SDA" I L 5650 2500 50 
+F4 "P1A" I L 5650 2150 50 
+F5 "P0A" I L 5650 2050 50 
+F6 "P2A" I L 5650 2700 50 
+F7 "P3A" I L 5650 2800 50 
+F8 "A0" I R 7250 2100 50 
+F9 "A1" I R 7250 2200 50 
+$EndSheet
+$Sheet
+S 5650 3150 1600 850 
+U 60B20955
+F0 "sheet60B20936" 50
+F1 "AMP-SPEAKER.sch" 50
+F2 "SCL" I L 5650 3500 50 
+F3 "SDA" I L 5650 3650 50 
+F4 "P1A" I L 5650 3300 50 
+F5 "P0A" I L 5650 3200 50 
+F6 "P2A" I L 5650 3850 50 
+F7 "P3A" I L 5650 3950 50 
+F8 "A0" I R 7250 3250 50 
+F9 "A1" I R 7250 3350 50 
+$EndSheet
+$Sheet
+S 5650 4300 1600 850 
+U 60B2095D
+F0 "sheet60B20937" 50
+F1 "AMP-SPEAKER.sch" 50
+F2 "SCL" I L 5650 4650 50 
+F3 "SDA" I L 5650 4800 50 
+F4 "P1A" I L 5650 4450 50 
+F5 "P0A" I L 5650 4350 50 
+F6 "P2A" I L 5650 5000 50 
+F7 "P3A" I L 5650 5100 50 
+F8 "A0" I R 7250 4400 50 
+F9 "A1" I R 7250 4500 50 
+$EndSheet
+$Sheet
+S 9000 1950 1600 850 
+U 60B20965
+F0 "sheet60B20938" 50
+F1 "AMP-SPEAKER.sch" 50
+F2 "SCL" I L 9000 2300 50 
+F3 "SDA" I L 9000 2450 50 
+F4 "P1A" I L 9000 2100 50 
+F5 "P0A" I L 9000 2000 50 
+F6 "P2A" I L 9000 2650 50 
+F7 "P3A" I L 9000 2750 50 
+F8 "A0" I R 10600 2050 50 
+F9 "A1" I R 10600 2150 50 
+$EndSheet
+$Sheet
+S 9000 3100 1600 850 
+U 60B2096D
+F0 "sheet60B20939" 50
+F1 "AMP-SPEAKER.sch" 50
+F2 "SCL" I L 9000 3450 50 
+F3 "SDA" I L 9000 3600 50 
+F4 "P1A" I L 9000 3250 50 
+F5 "P0A" I L 9000 3150 50 
+F6 "P2A" I L 9000 3800 50 
+F7 "P3A" I L 9000 3900 50 
+F8 "A0" I R 10600 3200 50 
+F9 "A1" I R 10600 3300 50 
+$EndSheet
+Wire Wire Line
+	8000 3000 8200 3000
+Wire Wire Line
+	8200 3000 8200 2500
+Wire Wire Line
+	8000 2850 8450 2850
+Wire Wire Line
+	8450 2850 8450 2650
+Wire Wire Line
+	8450 2850 8450 3600
+Connection ~ 8450 2850
+Wire Wire Line
+	8200 3000 8200 3450
+Connection ~ 8200 3000
+Wire Wire Line
+	4500 4400 4750 4400
+Wire Wire Line
+	4750 1200 5650 1200
+Wire Wire Line
+	5650 2350 4750 2350
+Connection ~ 4750 2350
+Wire Wire Line
+	4750 2350 4750 1200
+Wire Wire Line
+	4750 4650 5650 4650
+Wire Wire Line
+	5650 3500 4750 3500
+Connection ~ 4750 3500
+Wire Wire Line
+	4750 3500 4750 3950
+Wire Wire Line
+	4500 4550 4850 4550
+Wire Wire Line
+	4850 4800 5650 4800
+Wire Wire Line
+	5650 3650 4850 3650
+Connection ~ 4850 3650
+Wire Wire Line
+	5650 2500 4850 2500
+Wire Wire Line
+	5650 1350 4850 1350
+Wire Wire Line
+	4850 1350 4850 2500
+Connection ~ 4850 2500
+Text GLabel 8900 3200 0    50   Input ~ 0
+FREQ15
+Text GLabel 8900 3850 0    50   Input ~ 0
+FREQ16
+Text GLabel 8850 2050 0    50   Input ~ 0
+FREQ13
+Text GLabel 8850 2700 0    50   Input ~ 0
+FREQ14
+Text GLabel 5550 900  0    50   Input ~ 0
+FREQ1
+Text GLabel 5550 1000 0    50   Input ~ 0
+FREQ2
+Text GLabel 5550 1550 0    50   Input ~ 0
+FREQ3
+Text GLabel 5550 1650 0    50   Input ~ 0
+FREQ4
+Text GLabel 5550 2050 0    50   Input ~ 0
+FREQ5
+Text GLabel 5550 2150 0    50   Input ~ 0
+FREQ6
+Text GLabel 5550 2700 0    50   Input ~ 0
+FREQ7
+Text GLabel 5550 2800 0    50   Input ~ 0
+FREQ8
+Text GLabel 5550 3250 0    50   Input ~ 0
+FREQ9
+Text GLabel 5550 3900 0    50   Input ~ 0
+FREQ10
+Text GLabel 5550 4400 0    50   Input ~ 0
+FREQ11
+Text GLabel 5550 5050 0    50   Input ~ 0
+FREQ12
+Wire Wire Line
+	8900 3850 8950 3850
+Wire Wire Line
+	8950 3850 8950 3800
+Wire Wire Line
+	8950 3800 9000 3800
+Wire Wire Line
+	9000 3900 8950 3900
+Wire Wire Line
+	8950 3900 8950 3850
+Connection ~ 8950 3850
+Wire Wire Line
+	8900 3200 8950 3200
+Wire Wire Line
+	8950 3200 8950 3150
+Wire Wire Line
+	8950 3150 9000 3150
+Wire Wire Line
+	9000 3250 8950 3250
+Wire Wire Line
+	8950 3250 8950 3200
+Connection ~ 8950 3200
+Wire Wire Line
+	8850 2700 8950 2700
+Wire Wire Line
+	8950 2700 8950 2650
+Wire Wire Line
+	8950 2650 9000 2650
+Wire Wire Line
+	9000 2750 8950 2750
+Wire Wire Line
+	8950 2750 8950 2700
+Connection ~ 8950 2700
+Wire Wire Line
+	8850 2050 8950 2050
+Wire Wire Line
+	8950 2050 8950 2100
+Wire Wire Line
+	8950 2100 9000 2100
+Wire Wire Line
+	9000 2000 8950 2000
+Wire Wire Line
+	8950 2000 8950 2050
+Connection ~ 8950 2050
+Wire Wire Line
+	8450 2450 9000 2450
+Wire Wire Line
+	8200 2300 9000 2300
+Wire Wire Line
+	8450 3600 9000 3600
+Wire Wire Line
+	8200 3450 9000 3450
+Wire Wire Line
+	5600 5050 5600 5000
+Wire Wire Line
+	5600 5000 5650 5000
+Wire Wire Line
+	5550 5050 5600 5050
+Wire Wire Line
+	5600 5100 5600 5050
+Connection ~ 5600 5050
+Wire Wire Line
+	5600 5100 5650 5100
+Wire Wire Line
+	5550 4400 5600 4400
+Wire Wire Line
+	5600 4400 5600 4350
+Wire Wire Line
+	5600 4350 5650 4350
+Wire Wire Line
+	5650 4450 5600 4450
+Wire Wire Line
+	5600 4450 5600 4400
+Connection ~ 5600 4400
+Wire Wire Line
+	5550 3900 5600 3900
+Wire Wire Line
+	5600 3900 5600 3850
+Wire Wire Line
+	5600 3850 5650 3850
+Wire Wire Line
+	5650 3950 5600 3950
+Wire Wire Line
+	5600 3950 5600 3900
+Connection ~ 5600 3900
+Wire Wire Line
+	5550 3250 5600 3250
+Wire Wire Line
+	5600 3250 5600 3200
+Wire Wire Line
+	5600 3200 5650 3200
+Wire Wire Line
+	5650 3300 5600 3300
+Wire Wire Line
+	5600 3250 5600 3300
+Connection ~ 5600 3250
+Wire Wire Line
+	5550 2700 5650 2700
+Wire Wire Line
+	5550 2800 5650 2800
+Wire Wire Line
+	5550 2050 5650 2050
+Wire Wire Line
+	5550 2150 5650 2150
+Wire Wire Line
+	5550 1550 5650 1550
+Wire Wire Line
+	5550 1650 5650 1650
+Wire Wire Line
+	5550 1000 5650 1000
+Wire Wire Line
+	5550 900  5650 900 
+Connection ~ 4750 4400
+Wire Wire Line
+	4750 4400 4750 4650
+Connection ~ 4850 4550
+Wire Wire Line
+	4850 4550 4850 4800
+Wire Wire Line
+	4750 2350 4750 3500
+Wire Wire Line
+	4850 2500 4850 3650
+Text GLabel 7350 1000 2    50   Input ~ 0
+TeensyGND
+Text GLabel 7350 2200 2    50   Input ~ 0
+TeensyGND
+Text GLabel 7350 3250 2    50   Input ~ 0
+TeensyGND
+Text GLabel 10700 2100 2    50   Input ~ 0
+TeensyGND
+Text GLabel 10700 3300 2    50   Input ~ 0
+TeensyGND
+Wire Wire Line
+	7250 950  7300 950 
+Wire Wire Line
+	7300 950  7300 1000
+Wire Wire Line
+	7300 1000 7350 1000
+Wire Wire Line
+	7250 1050 7300 1050
+Wire Wire Line
+	7300 1050 7300 1000
+Connection ~ 7300 1000
+Wire Wire Line
+	7250 2100 7350 2100
+Wire Wire Line
+	7250 3350 7350 3350
+Wire Wire Line
+	10600 3200 10700 3200
+Wire Wire Line
+	10600 2050 10650 2050
+Wire Wire Line
+	10650 2050 10650 2100
+Wire Wire Line
+	10650 2100 10700 2100
+Wire Wire Line
+	10600 2150 10650 2150
+Wire Wire Line
+	10650 2150 10650 2100
+Connection ~ 10650 2100
+Text GLabel 7350 2100 2    50   Input ~ 0
+TeensyVVD
+Text GLabel 7350 3350 2    50   Input ~ 0
+TeensyVVD
+Text GLabel 7350 4450 2    50   Input ~ 0
+TeensyVVD
+Text GLabel 10700 3200 2    50   Input ~ 0
+TeensyVVD
+Wire Wire Line
+	10600 3300 10700 3300
+Wire Wire Line
+	7250 2200 7350 2200
+Wire Wire Line
+	7250 3250 7350 3250
+Wire Wire Line
+	7250 4400 7300 4400
+Wire Wire Line
+	7300 4400 7300 4450
+Wire Wire Line
+	7300 4450 7350 4450
+Wire Wire Line
+	7250 4500 7300 4500
+Wire Wire Line
+	7300 4500 7300 4450
+Connection ~ 7300 4450
+Text GLabel 2850 2700 2    50   Output ~ 0
+FREQ8
+Wire Wire Line
+	2850 2600 2750 2600
+Text GLabel 2850 2000 2    50   Output ~ 0
+FREQ1
+Wire Wire Line
+	2850 1900 2750 1900
+Text GLabel 2850 1800 2    50   Input ~ 0
+TeensyGND
+Wire Wire Line
+	2850 1800 2750 1800
+Wire Wire Line
+	2850 2000 2750 2000
+Wire Wire Line
+	2850 2100 2750 2100
+Wire Wire Line
+	2850 2200 2750 2200
+Wire Wire Line
+	2850 2300 2750 2300
+Wire Wire Line
+	2850 2400 2750 2400
+Wire Wire Line
+	2850 2500 2750 2500
+Wire Wire Line
+	2850 2700 2750 2700
+Wire Wire Line
+	2850 2800 2750 2800
+Wire Wire Line
+	2850 2900 2750 2900
+Wire Wire Line
+	2850 3700 2750 3700
+Wire Wire Line
+	2850 3800 2750 3800
+Wire Wire Line
+	2850 3600 2750 3600
+Wire Wire Line
+	2850 3500 2750 3500
+Text GLabel 2850 2100 2    50   Output ~ 0
+FREQ2
+Text GLabel 2850 2200 2    50   Output ~ 0
+FREQ3
+Text GLabel 2850 2300 2    50   Output ~ 0
+FREQ4
+Text GLabel 2850 2400 2    50   Output ~ 0
+FREQ5
+Text GLabel 2850 2500 2    50   Output ~ 0
+FREQ6
+Text GLabel 2850 2600 2    50   Output ~ 0
+FREQ7
+Text GLabel 2850 2800 2    50   Output ~ 0
+FREQ9
+Text GLabel 2850 2900 2    50   Output ~ 0
+FREQ10
+Text GLabel 2850 3000 2    50   Output ~ 0
+FREQ11
+Text GLabel 2850 3800 2    50   BiDi ~ 0
+SCL1
+Text GLabel 2850 3900 2    50   BiDi ~ 0
+SDA1
+Text GLabel 2850 3700 2    50   BiDi ~ 0
+SDA0
+Text GLabel 2850 3600 2    50   BiDi ~ 0
+SCL0
+Text GLabel 4500 4550 0    50   BiDi ~ 0
+SDA0
+Text GLabel 4500 4400 0    50   BiDi ~ 0
+SCL0
+Wire Wire Line
+	2750 3900 2850 3900
+Text GLabel 2850 3100 2    50   Output ~ 0
+FREQ12
+Text GLabel 2850 3200 2    50   Output ~ 0
+FREQ13
+Text GLabel 2850 3300 2    50   Output ~ 0
+FREQ14
+Text GLabel 2850 3400 2    50   Output ~ 0
+FREQ15
+Text GLabel 2850 3500 2    50   Output ~ 0
+FREQ16
+Text GLabel 2850 1900 2    50   Output ~ 0
+TeensyVDD
+Wire Wire Line
+	2750 3000 2850 3000
+Wire Wire Line
+	2750 3100 2850 3100
+Wire Wire Line
+	2750 3200 2850 3200
+Wire Wire Line
+	2750 3300 2850 3300
+Wire Wire Line
+	2750 3400 2850 3400
+Text GLabel 2800 1200 2    50   Input ~ 0
+GND
+Text GLabel 3250 1000 2    50   Input ~ 0
+VDD
+Wire Wire Line
+	2700 1200 2800 1200
 $Comp
-L teensy:Teensy4.0 U1
-U 1 1 609956D3
-P 5000 3700
-F 0 "U1" H 5000 5315 50  0001 C CNN
-F 1 "Teensy4.0" H 5000 5224 50  0000 C CNN
-F 2 "Teensy:Teensy40_SMT" H 4600 3900 50  0001 C CNN
-F 3 "" H 4600 3900 50  0001 C CNN
-	1    5000 3700
+L power:PWR_FLAG #FLG01
+U 1 1 60D91BC9
+P 3150 1000
+F 0 "#FLG01" H 3150 1075 50  0001 C CNN
+F 1 "PWR_FLAG" H 3150 1173 50  0000 C CNN
+F 2 "" H 3150 1000 50  0001 C CNN
+F 3 "~" H 3150 1000 50  0001 C CNN
+	1    3150 1000
 	1    0    0    -1  
 $EndComp
-Text GLabel 3800 2350 0    50   Input ~ 0
+Text GLabel 3900 1250 0    50   Input ~ 0
 TeensyGND
-Text GLabel 4900 5650 0    50   Input ~ 0
-TeensyGND
+Text GLabel 3900 1450 0    50   Input ~ 0
+GND
+Wire Wire Line
+	3900 1450 3900 1350
 $Comp
-L power:GNDPWR #PWR01
-U 1 1 609FC16E
-P 4900 5650
-F 0 "#PWR01" H 4900 5450 50  0001 C CNN
-F 1 "GNDPWR" V 4905 5542 50  0000 R CNN
-F 2 "" H 4900 5600 50  0001 C CNN
-F 3 "" H 4900 5600 50  0001 C CNN
-	1    4900 5650
+L Connector:Conn_01x22_Female J2
+U 1 1 60DEA836
+P 2550 2800
+F 0 "J2" H 2442 3985 50  0000 C CNN
+F 1 "Conn_01x22_Female" H 2442 3894 50  0000 C CNN
+F 2 "Pin Socket 2.54mm:PinSocket_2x11_P2.54mm_Vertical" H 2550 2800 50  0001 C CNN
+F 3 "~" H 2550 2800 50  0001 C CNN
+	1    2550 2800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Barrel_Jack J1
+U 1 1 60E0F3C8
+P 2400 1100
+F 0 "J1" H 2457 1425 50  0000 C CNN
+F 1 "Barrel_Jack" H 2457 1334 50  0000 C CNN
+F 2 "Barrel Jack:BarrelJack_CUI_PJ-102AH_Horizontal" H 2450 1060 50  0001 C CNN
+F 3 "~" H 2450 1060 50  0001 C CNN
+	1    2400 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 60E483FB
+P 3900 1350
+F 0 "#PWR01" H 3900 1100 50  0001 C CNN
+F 1 "GND" H 3905 1177 50  0000 C CNN
+F 2 "" H 3900 1350 50  0001 C CNN
+F 3 "" H 3900 1350 50  0001 C CNN
+	1    3900 1350
 	0    -1   -1   0   
 $EndComp
+Connection ~ 3150 1000
 Wire Wire Line
-	3800 2350 3900 2350
-Wire Wire Line
-	3800 2650 3900 2650
-Wire Wire Line
-	3800 2850 3900 2850
-Wire Wire Line
-	3800 2950 3900 2950
-Wire Wire Line
-	3800 3050 3900 3050
-Wire Wire Line
-	3800 3150 3900 3150
-Wire Wire Line
-	3800 3450 3900 3450
-Wire Wire Line
-	3800 3550 3900 3550
-Wire Wire Line
-	3800 3650 3900 3650
-Wire Wire Line
-	3800 4250 3900 4250
-Wire Wire Line
-	3800 4350 3900 4350
-Wire Wire Line
-	3800 4450 3900 4450
-Wire Wire Line
-	3800 4550 3900 4550
-Wire Wire Line
-	3800 4650 3900 4650
-Wire Wire Line
-	3800 4750 3900 4750
-Wire Wire Line
-	3800 4850 3900 4850
-Wire Wire Line
-	6100 2750 6200 2750
-Wire Wire Line
-	6100 2950 6200 2950
-Wire Wire Line
-	6100 3250 6200 3250
-Wire Wire Line
-	6100 3850 6200 3850
-Wire Wire Line
-	6100 5050 6200 5050
-$Sheet
-S 6950 1650 3900 4200
-U 60B3C664
-F0 "SPEAKER-ARRAY" 50
-F1 "SPEAKER-ARRAY.sch" 50
-$EndSheet
+	3150 1000 3250 1000
 $Comp
-L power:+3.3V #PWR0101
-U 1 1 61A8BD0D
-P 6200 4650
-F 0 "#PWR0101" H 6200 4500 50  0001 C CNN
-F 1 "+3.3V" H 6215 4823 50  0000 C CNN
-F 2 "" H 6200 4650 50  0001 C CNN
-F 3 "" H 6200 4650 50  0001 C CNN
-	1    6200 4650
-	0    1    1    0   
-$EndComp
-NoConn ~ 3900 2450
-NoConn ~ 3900 2550
-NoConn ~ 3900 3250
-NoConn ~ 3900 3350
-NoConn ~ 3900 3950
-NoConn ~ 3900 4050
-NoConn ~ 3900 4150
-NoConn ~ 3900 4950
-NoConn ~ 3900 5050
-NoConn ~ 6100 4950
-NoConn ~ 6100 4750
-NoConn ~ 6100 4550
-NoConn ~ 6100 4250
-NoConn ~ 6100 4150
-NoConn ~ 6100 4050
-NoConn ~ 6100 3950
-NoConn ~ 6100 3750
-NoConn ~ 6100 3650
-NoConn ~ 6100 3550
-NoConn ~ 6100 3450
-NoConn ~ 6100 3350
-NoConn ~ 6100 3150
-NoConn ~ 6100 3050
-NoConn ~ 6100 2850
-NoConn ~ 6100 2650
-NoConn ~ 6100 2550
-NoConn ~ 6100 2450
-NoConn ~ 6100 2350
-NoConn ~ 3900 3750
-NoConn ~ 3900 2750
-Text GLabel 3800 2650 0    50   Output ~ 0
-FREQ1
-Text GLabel 3800 2850 0    50   Output ~ 0
-FREQ2
-Text GLabel 3800 2950 0    50   Output ~ 0
-FREQ3
-Text GLabel 3800 3050 0    50   Output ~ 0
-FREQ4
-Text GLabel 3800 3150 0    50   Output ~ 0
-FREQ5
-Text GLabel 3800 3450 0    50   Output ~ 0
-FREQ6
-Text GLabel 3800 3550 0    50   Output ~ 0
-FREQ7
-Text GLabel 3800 3650 0    50   Output ~ 0
-FREQ8
-Text GLabel 6200 4850 2    50   Output ~ 0
-TeensyVDD
-Text GLabel 3800 4250 0    50   Output ~ 0
-FREQ9
-Text GLabel 3800 4350 0    50   Output ~ 0
-FREQ10
-Text GLabel 3800 4450 0    50   Output ~ 0
-FREQ11
-Text GLabel 3800 4550 0    50   BiDi ~ 0
-SCL1
-Text GLabel 3800 4650 0    50   BiDi ~ 0
-SDA1
-Text GLabel 3800 4750 0    50   BiDi ~ 0
-SDA0
-Text GLabel 3800 4850 0    50   BiDi ~ 0
-SCL0
-Text GLabel 6200 2750 2    50   Output ~ 0
-FREQ16
-Text GLabel 6200 2950 2    50   Output ~ 0
-FREQ15
-Text GLabel 6200 3250 2    50   Output ~ 0
-FREQ14
-Text GLabel 6200 3850 2    50   Output ~ 0
-FREQ13
-Text GLabel 6200 5050 2    50   Output ~ 0
-FREQ12
-NoConn ~ 3900 3850
-Wire Wire Line
-	6100 4850 6200 4850
-Wire Wire Line
-	6100 4650 6200 4650
-$Comp
-L power:PWR_FLAG #FLG0101
-U 1 1 60B5B8FC
-P 6200 4650
-F 0 "#FLG0101" H 6200 4725 50  0001 C CNN
-F 1 "PWR_FLAG" H 6200 4823 50  0000 C CNN
-F 2 "" H 6200 4650 50  0001 C CNN
-F 3 "~" H 6200 4650 50  0001 C CNN
-	1    6200 4650
+L power:+5V #PWR02
+U 1 1 60E5F6BA
+P 2850 1000
+F 0 "#PWR02" H 2850 850 50  0001 C CNN
+F 1 "+5V" H 2865 1173 50  0000 C CNN
+F 2 "" H 2850 1000 50  0001 C CNN
+F 3 "" H 2850 1000 50  0001 C CNN
+	1    2850 1000
 	1    0    0    -1  
 $EndComp
-Connection ~ 6200 4650
+Connection ~ 2850 1000
+Wire Wire Line
+	2850 1000 3150 1000
+Wire Wire Line
+	2700 1000 2850 1000
+Connection ~ 3900 1350
+Wire Wire Line
+	3900 1250 3900 1350
+$Comp
+L v3-rescue:R-Device R2
+U 1 1 60C4431E
+P 4550 4100
+AR Path="/60C4431E" Ref="R2"  Part="1" 
+AR Path="/60B3C664/60C4431E" Ref="R?"  Part="1" 
+AR Path="/60B3C664/60D625EB/60C4431E" Ref="R?"  Part="1" 
+AR Path="/60B3C664/61161B92/60C4431E" Ref="R?"  Part="1" 
+AR Path="/60B3C664/611AE4D8/60C4431E" Ref="R?"  Part="1" 
+AR Path="/60B3C664/611FADDC/60C4431E" Ref="R?"  Part="1" 
+AR Path="/60B3C664/612476AD/60C4431E" Ref="R?"  Part="1" 
+AR Path="/60B3C664/61293FB1/60C4431E" Ref="R?"  Part="1" 
+AR Path="/60B3C664/61415D48/60C4431E" Ref="R?"  Part="1" 
+AR Path="/60B3C664/614FF167/60C4431E" Ref="R?"  Part="1" 
+AR Path="/60B3C664/6154BA8C/60C4431E" Ref="R?"  Part="1" 
+AR Path="/60B3C664/61598387/60C4431E" Ref="R?"  Part="1" 
+AR Path="/60B3C664/6168007F/60C4431E" Ref="R?"  Part="1" 
+AR Path="/60B3C664/61680083/60C4431E" Ref="R?"  Part="1" 
+AR Path="/60B20945/60C4431E" Ref="R?"  Part="1" 
+AR Path="/60B2094D/60C4431E" Ref="R?"  Part="1" 
+AR Path="/60B20955/60C4431E" Ref="R?"  Part="1" 
+AR Path="/60B2095D/60C4431E" Ref="R?"  Part="1" 
+AR Path="/60B20965/60C4431E" Ref="R?"  Part="1" 
+AR Path="/60B2096D/60C4431E" Ref="R?"  Part="1" 
+F 0 "R2" V 4343 4100 50  0001 C CNN
+F 1 "2200" V 4434 4100 50  0001 C CNN
+F 2 "SMD Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 4480 4100 50  0001 C CNN
+F 3 "~" H 4550 4100 50  0001 C CNN
+	1    4550 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L v3-rescue:R-Device R1
+U 1 1 60C44324
+P 4550 3950
+AR Path="/60C44324" Ref="R1"  Part="1" 
+AR Path="/60B3C664/60C44324" Ref="R?"  Part="1" 
+AR Path="/60B3C664/60D625EB/60C44324" Ref="R?"  Part="1" 
+AR Path="/60B3C664/61161B92/60C44324" Ref="R?"  Part="1" 
+AR Path="/60B3C664/611AE4D8/60C44324" Ref="R?"  Part="1" 
+AR Path="/60B3C664/611FADDC/60C44324" Ref="R?"  Part="1" 
+AR Path="/60B3C664/612476AD/60C44324" Ref="R?"  Part="1" 
+AR Path="/60B3C664/61293FB1/60C44324" Ref="R?"  Part="1" 
+AR Path="/60B3C664/61415D48/60C44324" Ref="R?"  Part="1" 
+AR Path="/60B3C664/614FF167/60C44324" Ref="R?"  Part="1" 
+AR Path="/60B3C664/6154BA8C/60C44324" Ref="R?"  Part="1" 
+AR Path="/60B3C664/61598387/60C44324" Ref="R?"  Part="1" 
+AR Path="/60B3C664/6168007F/60C44324" Ref="R?"  Part="1" 
+AR Path="/60B3C664/61680083/60C44324" Ref="R?"  Part="1" 
+AR Path="/60B20945/60C44324" Ref="R?"  Part="1" 
+AR Path="/60B2094D/60C44324" Ref="R?"  Part="1" 
+AR Path="/60B20955/60C44324" Ref="R?"  Part="1" 
+AR Path="/60B2095D/60C44324" Ref="R?"  Part="1" 
+AR Path="/60B20965/60C44324" Ref="R?"  Part="1" 
+AR Path="/60B2096D/60C44324" Ref="R?"  Part="1" 
+F 0 "R1" V 4343 3950 50  0001 C CNN
+F 1 "2200" V 4434 3950 50  0001 C CNN
+F 2 "SMD Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 4480 3950 50  0001 C CNN
+F 3 "~" H 4550 3950 50  0001 C CNN
+	1    4550 3950
+	0    1    1    0   
+$EndComp
+Text GLabel 4400 4100 0    50   Input ~ 0
+TeensyVDD
+Text GLabel 4400 3950 0    50   Input ~ 0
+TeensyVDD
+Wire Wire Line
+	4700 3950 4750 3950
+Connection ~ 4750 3950
+Wire Wire Line
+	4750 3950 4750 4400
+Wire Wire Line
+	4700 4100 4850 4100
+Wire Wire Line
+	4850 3650 4850 4100
+Connection ~ 4850 4100
+Wire Wire Line
+	4850 4100 4850 4550
+$Comp
+L v3-rescue:R-Device R8
+U 1 1 60C65139
+P 8000 2650
+AR Path="/60C65139" Ref="R8"  Part="1" 
+AR Path="/60B3C664/60C65139" Ref="R?"  Part="1" 
+AR Path="/60B3C664/60D625EB/60C65139" Ref="R?"  Part="1" 
+AR Path="/60B3C664/61161B92/60C65139" Ref="R?"  Part="1" 
+AR Path="/60B3C664/611AE4D8/60C65139" Ref="R?"  Part="1" 
+AR Path="/60B3C664/611FADDC/60C65139" Ref="R?"  Part="1" 
+AR Path="/60B3C664/612476AD/60C65139" Ref="R?"  Part="1" 
+AR Path="/60B3C664/61293FB1/60C65139" Ref="R?"  Part="1" 
+AR Path="/60B3C664/61415D48/60C65139" Ref="R?"  Part="1" 
+AR Path="/60B3C664/614FF167/60C65139" Ref="R?"  Part="1" 
+AR Path="/60B3C664/6154BA8C/60C65139" Ref="R?"  Part="1" 
+AR Path="/60B3C664/61598387/60C65139" Ref="R?"  Part="1" 
+AR Path="/60B3C664/6168007F/60C65139" Ref="R?"  Part="1" 
+AR Path="/60B3C664/61680083/60C65139" Ref="R?"  Part="1" 
+AR Path="/60B20945/60C65139" Ref="R?"  Part="1" 
+AR Path="/60B2094D/60C65139" Ref="R?"  Part="1" 
+AR Path="/60B20955/60C65139" Ref="R?"  Part="1" 
+AR Path="/60B2095D/60C65139" Ref="R?"  Part="1" 
+AR Path="/60B20965/60C65139" Ref="R?"  Part="1" 
+AR Path="/60B2096D/60C65139" Ref="R?"  Part="1" 
+F 0 "R8" V 7793 2650 50  0001 C CNN
+F 1 "2200" V 7884 2650 50  0001 C CNN
+F 2 "SMD Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 7930 2650 50  0001 C CNN
+F 3 "~" H 8000 2650 50  0001 C CNN
+	1    8000 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L v3-rescue:R-Device R7
+U 1 1 60C6513F
+P 8000 2500
+AR Path="/60C6513F" Ref="R7"  Part="1" 
+AR Path="/60B3C664/60C6513F" Ref="R?"  Part="1" 
+AR Path="/60B3C664/60D625EB/60C6513F" Ref="R?"  Part="1" 
+AR Path="/60B3C664/61161B92/60C6513F" Ref="R?"  Part="1" 
+AR Path="/60B3C664/611AE4D8/60C6513F" Ref="R?"  Part="1" 
+AR Path="/60B3C664/611FADDC/60C6513F" Ref="R?"  Part="1" 
+AR Path="/60B3C664/612476AD/60C6513F" Ref="R?"  Part="1" 
+AR Path="/60B3C664/61293FB1/60C6513F" Ref="R?"  Part="1" 
+AR Path="/60B3C664/61415D48/60C6513F" Ref="R?"  Part="1" 
+AR Path="/60B3C664/614FF167/60C6513F" Ref="R?"  Part="1" 
+AR Path="/60B3C664/6154BA8C/60C6513F" Ref="R?"  Part="1" 
+AR Path="/60B3C664/61598387/60C6513F" Ref="R?"  Part="1" 
+AR Path="/60B3C664/6168007F/60C6513F" Ref="R?"  Part="1" 
+AR Path="/60B3C664/61680083/60C6513F" Ref="R?"  Part="1" 
+AR Path="/60B20945/60C6513F" Ref="R?"  Part="1" 
+AR Path="/60B2094D/60C6513F" Ref="R?"  Part="1" 
+AR Path="/60B20955/60C6513F" Ref="R?"  Part="1" 
+AR Path="/60B2095D/60C6513F" Ref="R?"  Part="1" 
+AR Path="/60B20965/60C6513F" Ref="R?"  Part="1" 
+AR Path="/60B2096D/60C6513F" Ref="R?"  Part="1" 
+F 0 "R7" V 7793 2500 50  0001 C CNN
+F 1 "2200" V 7884 2500 50  0001 C CNN
+F 2 "SMD Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 7930 2500 50  0001 C CNN
+F 3 "~" H 8000 2500 50  0001 C CNN
+	1    8000 2500
+	0    1    1    0   
+$EndComp
+Text GLabel 7850 2650 0    50   Input ~ 0
+TeensyVDD
+Text GLabel 7850 2500 0    50   Input ~ 0
+TeensyVDD
+Wire Wire Line
+	8150 2500 8200 2500
+Connection ~ 8200 2500
+Wire Wire Line
+	8200 2500 8200 2300
+Wire Wire Line
+	8150 2650 8450 2650
+Connection ~ 8450 2650
+Wire Wire Line
+	8450 2650 8450 2450
 $EndSCHEMATC

@@ -1,120 +1,65 @@
-05-31 05:05:02 Kicad_action_plugins.replicate_layout.action_replicate_layout 305:Plugin executed on: 'darwin'
-05-31 05:05:02 Kicad_action_plugins.replicate_layout.action_replicate_layout 306:Plugin executed with python version: '2.7.16 (default, Dec 23 2020, 16:11:24) \n[GCC 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4)]'
-05-31 05:05:02 Kicad_action_plugins.replicate_layout.action_replicate_layout 307:KiCad build version: (5.1.9-0-10_14)
-05-31 05:05:02 Kicad_action_plugins.replicate_layout.action_replicate_layout 308:Replicate layout plugin version: 70 started
-05-31 05:05:02 Kicad_action_plugins.replicate_layout.action_replicate_layout 340:Preparing replicator with U3 as a reference
-05-31 05:05:02 Kicad_action_plugins.replicate_layout.replicatelayout 215:getting project hierarchy from schematics
-05-31 05:05:02 Kicad_action_plugins.replicate_layout.replicatelayout 217:Project hierarchy looks like:
+06-10 21:53:48 Kicad_action_plugins.replicate_layout.action_replicate_layout 305:Plugin executed on: 'darwin'
+06-10 21:53:48 Kicad_action_plugins.replicate_layout.action_replicate_layout 306:Plugin executed with python version: '2.7.16 (default, Dec 23 2020, 16:11:24) \n[GCC 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4)]'
+06-10 21:53:48 Kicad_action_plugins.replicate_layout.action_replicate_layout 307:KiCad build version: (5.1.9-0-10_14)
+06-10 21:53:48 Kicad_action_plugins.replicate_layout.action_replicate_layout 308:Replicate layout plugin version: 70 started
+06-10 21:53:48 Kicad_action_plugins.replicate_layout.action_replicate_layout 340:Preparing replicator with IC5 as a reference
+06-10 21:53:48 Kicad_action_plugins.replicate_layout.replicatelayout 215:getting project hierarchy from schematics
+06-10 21:53:48 Kicad_action_plugins.replicate_layout.replicatelayout 217:Project hierarchy looks like:
 {u'60B20965': [u'sheet60B20938', u'/Users/sandersteeghs/Data/Projects/Hart/v3electronics/AMP-SPEAKER.sch'], u'60B20955': [u'sheet60B20936', u'/Users/sandersteeghs/Data/Projects/Hart/v3electronics/AMP-SPEAKER.sch'], u'60B20945': [u'sheet60B20934', u'/Users/sandersteeghs/Data/Projects/Hart/v3electronics/AMP-SPEAKER.sch'], u'60B2096D': [u'sheet60B20939', u'/Users/sandersteeghs/Data/Projects/Hart/v3electronics/AMP-SPEAKER.sch'], u'60B2095D': [u'sheet60B20937', u'/Users/sandersteeghs/Data/Projects/Hart/v3electronics/AMP-SPEAKER.sch'], u'60B2094D': [u'sheet60B20935', u'/Users/sandersteeghs/Data/Projects/Hart/v3electronics/AMP-SPEAKER.sch']}
-05-31 05:05:02 Kicad_action_plugins.replicate_layout.replicatelayout 225:getting a list of all footprints on board
-05-31 05:05:02 Kicad_action_plugins.replicate_layout.action_replicate_layout 367:source anchor footprint is u'U3'
-Located on:[u'sheet60B20934']
+06-10 21:53:48 Kicad_action_plugins.replicate_layout.replicatelayout 225:getting a list of all footprints on board
+06-10 21:53:48 Kicad_action_plugins.replicate_layout.action_replicate_layout 367:source anchor footprint is u'IC5'
+Located on:[u'sheet60B20938']
 With filenames:[u'AMP-SPEAKER.sch']
-With sheet_id:[u'sheet60B20934']
-05-31 05:05:02 Kicad_action_plugins.replicate_layout.action_replicate_layout 371:Corresponding footprints are 
-[(u'U3', [u'sheet60B20934']), (u'U5', [u'sheet60B20935']), (u'U7', [u'sheet60B20936']), (u'U9', [u'sheet60B20937']), (u'U11', [u'sheet60B20938']), (u'U13', [u'sheet60B20939'])]
-05-31 05:05:02 Kicad_action_plugins.replicate_layout.action_replicate_layout 384:Showing dialog
-05-31 05:05:02 Kicad_action_plugins.replicate_layout.action_replicate_layout 388:Pcbnew position: wx.Point(248, 49)
-05-31 05:05:02 Kicad_action_plugins.replicate_layout.action_replicate_layout 394:Display 0: wx.Rect(0, 0, 1440, 900)
-05-31 05:05:02 Kicad_action_plugins.replicate_layout.action_replicate_layout 398:Toolbar position: wx.Point(1042, 149)
-05-31 05:05:02 Kicad_action_plugins.replicate_layout.action_replicate_layout 405:Dialog position: wx.Point(729, 149)
-05-31 05:05:05 Kicad_action_plugins.replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:u'sheet60B20934', file:u'AMP-SPEAKER.sch'
-05-31 05:05:05 Kicad_action_plugins.replicate_layout.replicatelayout 256:Source sheet path up to the level:[u'sheet60B20934']
-05-31 05:05:05 Kicad_action_plugins.replicate_layout.replicatelayout 260:Footprints on the sheets:
-[u'U3', u'U5', u'U7', u'U9', u'U11', u'U13']
-05-31 05:05:05 Kicad_action_plugins.replicate_layout.replicatelayout 263:Footprints raw sheet ids:
-[u'/60B20945/60E20D9F', u'/60B2094D/60E20D9F', u'/60B20955/60E20D9F', u'/60B2095D/60E20D9F', u'/60B20965/60E20D9F', u'/60B2096D/60E20D9F']
-05-31 05:05:05 Kicad_action_plugins.replicate_layout.replicatelayout 279:All sheets to replicate:
+With sheet_id:[u'sheet60B20938']
+06-10 21:53:48 Kicad_action_plugins.replicate_layout.action_replicate_layout 371:Corresponding footprints are 
+[(u'IC6', [u'sheet60B20939']), (u'IC1', [u'sheet60B20934']), (u'IC2', [u'sheet60B20935']), (u'IC3', [u'sheet60B20936']), (u'IC4', [u'sheet60B20937']), (u'IC5', [u'sheet60B20938'])]
+06-10 21:53:48 Kicad_action_plugins.replicate_layout.action_replicate_layout 384:Showing dialog
+06-10 21:53:48 Kicad_action_plugins.replicate_layout.action_replicate_layout 388:Pcbnew position: wx.Point(-3, 20)
+06-10 21:53:48 Kicad_action_plugins.replicate_layout.action_replicate_layout 394:Display 0: wx.Rect(0, 0, 1440, 900)
+06-10 21:53:48 Kicad_action_plugins.replicate_layout.action_replicate_layout 398:Toolbar position: wx.Point(1231, 120)
+06-10 21:53:48 Kicad_action_plugins.replicate_layout.action_replicate_layout 405:Dialog position: wx.Point(918, 120)
+06-10 21:53:50 Kicad_action_plugins.replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:u'sheet60B20938', file:u'AMP-SPEAKER.sch'
+06-10 21:53:50 Kicad_action_plugins.replicate_layout.replicatelayout 256:Source sheet path up to the level:[u'sheet60B20938']
+06-10 21:53:50 Kicad_action_plugins.replicate_layout.replicatelayout 260:Footprints on the sheets:
+[u'IC6', u'IC1', u'IC2', u'IC3', u'IC4', u'IC5']
+06-10 21:53:50 Kicad_action_plugins.replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+[u'/60B2096D/60E20D4C', u'/60B20945/60E20D4C', u'/60B2094D/60E20D4C', u'/60B20955/60E20D4C', u'/60B2095D/60E20D4C', u'/60B20965/60E20D4C']
+06-10 21:53:50 Kicad_action_plugins.replicate_layout.replicatelayout 279:All sheets to replicate:
+[[u'sheet60B20939'], [u'sheet60B20934'], [u'sheet60B20935'], [u'sheet60B20936'], [u'sheet60B20937'], [u'sheet60B20938']]
+06-10 21:53:50 Kicad_action_plugins.replicate_layout.replicatelayout 284:All sheets to replicate sorted:
 [[u'sheet60B20934'], [u'sheet60B20935'], [u'sheet60B20936'], [u'sheet60B20937'], [u'sheet60B20938'], [u'sheet60B20939']]
-05-31 05:05:05 Kicad_action_plugins.replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+06-10 21:53:50 Kicad_action_plugins.replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[[u'sheet60B20934'], [u'sheet60B20935'], [u'sheet60B20936'], [u'sheet60B20937'], [u'sheet60B20939']]
+06-10 21:53:55 Kicad_action_plugins.replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:u'sheet60B20938', file:u'AMP-SPEAKER.sch'
+06-10 21:53:55 Kicad_action_plugins.replicate_layout.replicatelayout 256:Source sheet path up to the level:[u'sheet60B20938']
+06-10 21:53:55 Kicad_action_plugins.replicate_layout.replicatelayout 260:Footprints on the sheets:
+[u'IC6', u'IC1', u'IC2', u'IC3', u'IC4', u'IC5']
+06-10 21:53:55 Kicad_action_plugins.replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+[u'/60B2096D/60E20D4C', u'/60B20945/60E20D4C', u'/60B2094D/60E20D4C', u'/60B20955/60E20D4C', u'/60B2095D/60E20D4C', u'/60B20965/60E20D4C']
+06-10 21:53:55 Kicad_action_plugins.replicate_layout.replicatelayout 279:All sheets to replicate:
+[[u'sheet60B20939'], [u'sheet60B20934'], [u'sheet60B20935'], [u'sheet60B20936'], [u'sheet60B20937'], [u'sheet60B20938']]
+06-10 21:53:55 Kicad_action_plugins.replicate_layout.replicatelayout 284:All sheets to replicate sorted:
 [[u'sheet60B20934'], [u'sheet60B20935'], [u'sheet60B20936'], [u'sheet60B20937'], [u'sheet60B20938'], [u'sheet60B20939']]
-05-31 05:05:05 Kicad_action_plugins.replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
-[[u'sheet60B20935'], [u'sheet60B20936'], [u'sheet60B20937'], [u'sheet60B20938'], [u'sheet60B20939']]
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:u'sheet60B20934', file:u'AMP-SPEAKER.sch'
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 256:Source sheet path up to the level:[u'sheet60B20934']
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 260:Footprints on the sheets:
-[u'U3', u'U5', u'U7', u'U9', u'U11', u'U13']
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 263:Footprints raw sheet ids:
-[u'/60B20945/60E20D9F', u'/60B2094D/60E20D9F', u'/60B20955/60E20D9F', u'/60B2095D/60E20D9F', u'/60B20965/60E20D9F', u'/60B2096D/60E20D9F']
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 279:All sheets to replicate:
-[[u'sheet60B20934'], [u'sheet60B20935'], [u'sheet60B20936'], [u'sheet60B20937'], [u'sheet60B20938'], [u'sheet60B20939']]
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 284:All sheets to replicate sorted:
-[[u'sheet60B20934'], [u'sheet60B20935'], [u'sheet60B20936'], [u'sheet60B20937'], [u'sheet60B20938'], [u'sheet60B20939']]
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
-[[u'sheet60B20935'], [u'sheet60B20936'], [u'sheet60B20937'], [u'sheet60B20938'], [u'sheet60B20939']]
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.action_replicate_layout 179:Replicating layout
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 994:Starting replication of sheets: [[u'sheet60B20935'], [u'sheet60B20936'], [u'sheet60B20937'], [u'sheet60B20938'], [u'sheet60B20939']]
-on level: [u'sheet60B20934']
+06-10 21:53:55 Kicad_action_plugins.replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[[u'sheet60B20934'], [u'sheet60B20935'], [u'sheet60B20936'], [u'sheet60B20937'], [u'sheet60B20939']]
+06-10 21:53:55 Kicad_action_plugins.replicate_layout.action_replicate_layout 179:Replicating layout
+06-10 21:53:55 Kicad_action_plugins.replicate_layout.replicatelayout 994:Starting replication of sheets: [[u'sheet60B20934'], [u'sheet60B20935'], [u'sheet60B20936'], [u'sheet60B20937'], [u'sheet60B20939']]
+on level: [u'sheet60B20938']
 with tracks=True, zone=True, text=True, containing=True, remove=False, locked=False
-05-31 05:05:11 root 261:updating GUI message: 'Preparing for replication'
-05-31 05:05:11 root 266:updating GUI with: 0
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 556:Getting the list of source footprints
-05-31 05:05:11 root 266:updating GUI with: 0
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 560:Getting the list of all the remaining footprints
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 564:Getting nets local to source footprints
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 568:Getting source bounding box
-05-31 05:05:11 root 266:updating GUI with: 37
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 572:Getting source tracks
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 576:Getting source zones
-05-31 05:05:11 root 266:updating GUI with: 62
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 580:Getting source text items
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 584:Getting source text items
-05-31 05:05:11 root 261:updating GUI message: 'Replicating footprints'
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 590:Replicating footprints
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet60B20935']
-05-31 05:05:11 root 266:updating GUI with: 1
-05-31 05:05:11 root 266:updating GUI with: 1
-05-31 05:05:11 root 266:updating GUI with: 12
-05-31 05:05:11 root 266:updating GUI with: 19
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet60B20936']
-05-31 05:05:11 root 266:updating GUI with: 29
-05-31 05:05:11 root 266:updating GUI with: 38
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet60B20937']
-05-31 05:05:11 root 266:updating GUI with: 47
-05-31 05:05:11 root 266:updating GUI with: 56
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet60B20938']
-05-31 05:05:11 root 266:updating GUI with: 65
-05-31 05:05:11 root 266:updating GUI with: 75
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet60B20939']
-05-31 05:05:11 root 266:updating GUI with: 84
-05-31 05:05:11 root 266:updating GUI with: 94
-05-31 05:05:11 root 261:updating GUI message: 'Replicating tracks'
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 720:Replicating tracks
-05-31 05:05:11 root 266:updating GUI with: 0
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 726:Replicating tracks on sheet [u'sheet60B20935']
-05-31 05:05:11 root 266:updating GUI with: 0
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 726:Replicating tracks on sheet [u'sheet60B20936']
-05-31 05:05:11 root 266:updating GUI with: 20
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 726:Replicating tracks on sheet [u'sheet60B20937']
-05-31 05:05:11 root 266:updating GUI with: 40
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 726:Replicating tracks on sheet [u'sheet60B20938']
-05-31 05:05:11 root 266:updating GUI with: 60
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 726:Replicating tracks on sheet [u'sheet60B20939']
-05-31 05:05:11 root 266:updating GUI with: 80
-05-31 05:05:11 root 261:updating GUI message: 'Replicating zones'
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 771:Replicating zones
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 778:Replicating zones on sheet [u'sheet60B20935']
-05-31 05:05:11 root 266:updating GUI with: 20
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 778:Replicating zones on sheet [u'sheet60B20936']
-05-31 05:05:11 root 266:updating GUI with: 40
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 778:Replicating zones on sheet [u'sheet60B20937']
-05-31 05:05:11 root 266:updating GUI with: 60
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 778:Replicating zones on sheet [u'sheet60B20938']
-05-31 05:05:11 root 266:updating GUI with: 80
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 778:Replicating zones on sheet [u'sheet60B20939']
-05-31 05:05:11 root 261:updating GUI message: 'Replicating text'
-05-31 05:05:11 root 266:updating GUI with: 0
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 837:Replicating text
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 844:Replicating text on sheet [u'sheet60B20935']
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 844:Replicating text on sheet [u'sheet60B20936']
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 844:Replicating text on sheet [u'sheet60B20937']
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 844:Replicating text on sheet [u'sheet60B20938']
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 844:Replicating text on sheet [u'sheet60B20939']
-05-31 05:05:11 root 261:updating GUI message: 'Replicating drawings'
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 868:Replicating drawings
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 874:Replicating drawings on sheet [u'sheet60B20935']
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 874:Replicating drawings on sheet [u'sheet60B20936']
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 874:Replicating drawings on sheet [u'sheet60B20937']
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 874:Replicating drawings on sheet [u'sheet60B20938']
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.replicatelayout 874:Replicating drawings on sheet [u'sheet60B20939']
-05-31 05:05:11 Kicad_action_plugins.replicate_layout.action_replicate_layout 201:Replication complete
+06-10 21:53:55 root 261:updating GUI message: 'Preparing for replication'
+06-10 21:53:55 root 266:updating GUI with: 0
+06-10 21:53:55 Kicad_action_plugins.replicate_layout.replicatelayout 556:Getting the list of source footprints
+06-10 21:53:55 root 266:updating GUI with: 0
+06-10 21:53:55 Kicad_action_plugins.replicate_layout.replicatelayout 560:Getting the list of all the remaining footprints
+06-10 21:53:55 Kicad_action_plugins.replicate_layout.replicatelayout 564:Getting nets local to source footprints
+06-10 21:53:55 Kicad_action_plugins.replicate_layout.replicatelayout 568:Getting source bounding box
+06-10 21:53:55 root 266:updating GUI with: 37
+06-10 21:53:55 Kicad_action_plugins.replicate_layout.replicatelayout 572:Getting source tracks
+06-10 21:53:55 Kicad_action_plugins.replicate_layout.replicatelayout 576:Getting source zones
+06-10 21:53:55 root 266:updating GUI with: 62
+06-10 21:53:55 Kicad_action_plugins.replicate_layout.replicatelayout 580:Getting source text items
+06-10 21:53:55 Kicad_action_plugins.replicate_layout.replicatelayout 584:Getting source text items
+06-10 21:53:55 root 261:updating GUI message: 'Replicating footprints'
+06-10 21:53:55 Kicad_action_plugins.replicate_layout.replicatelayout 590:Replicating footprints
+06-10 21:53:55 root 266:updating GUI with: 0
+06-10 21:53:55 Kicad_action_plugins.replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet60B20934']

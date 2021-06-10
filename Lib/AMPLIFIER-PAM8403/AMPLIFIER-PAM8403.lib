@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# AMPLIFIER-PAM8403
+#
+DEF AMPLIFIER-PAM8403 U 0 40 N Y 1 L N
+F0 "U" -500 700 50 H V L BNN
+F1 "AMPLIFIER-PAM8403" -500 600 50 H V L BNN
+F2 "AMPLIFIER-PAM8403" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+DRAW
+S -500 -600 500 500 0 0 10 f
+X IN.L IN.L -700 300 200 R 40 40 0 0 I 
+X IN.COM IN.COM -700 200 200 R 40 40 0 0 I 
+X IN.R IN.R -700 100 200 R 40 40 0 0 B 
+X +5V +5V -700 -300 200 R 40 40 0 0 W 
+X GND GND -700 -400 200 R 40 40 0 0 W 
+X OUT.L- OUT.L 700 300 200 L 40 40 0 0 O 
+X OUT.L+ OUT.L+ 700 100 200 L 40 40 0 0 O 
+X OUT.R+ OUT.R+ 700 -200 200 L 40 40 0 0 O 
+X OUT.R- OUT.R 700 -400 200 L 40 40 0 0 O 
+ENDDRAW
+ENDDEF
+#
+# End Library
