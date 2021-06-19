@@ -220,170 +220,170 @@ DIY modules
 AC-VOLTAGE-SENSOR#IC
 <b>Isolated AC Voltage Sensor</b> based on <b>ZMPT101B</b> transformer<br />
 Footprint with input connector
-
+0
 0
 6
 6
 DIY modules
 ADC-4CH-ADS1115
 <b>4 Channel 16-Bit Analog-to-Digital Converter</b> based on <b>ADS1115</b> chip
-
+0
 0
 10
 10
 DIY modules
 ADC-DAC-PCF8591
 <b>4-Channel ADC and 1-Channel DAC Module</b> based on <b>PCF8591</b> chip
-
+0
 0
 9
 9
 DIY modules
 AMPLIFIER-PAM8403
 <b>Stereo Class-D 3W Audio Amplifier</b> based on <b>PAM8403</b> chip
-
+0
 0
 9
 9
 DIY modules
 ARDUINO-NANO-3.0
 <b>Arduino Nano 3.0</b>
-
+0
 0
 30
 30
 DIY modules
 ARDUINO-NANO-3.0#ISP
 <b>Arduino Nano 3.0</b><br>
-Footprint with ISP pads
-
+0
+0
 0
 36
 36
 DIY modules
 ARDUINO-PRO-MINI
-<b>Arduino Pro Mini</b>
-
+0
+0
 0
 35
 35
 DIY modules
 ARDUINO-PRO-MINI#APC
-<b>Arduino Pro Mini</b><br>
-Footprint with angle programming connector
-
+0
+0
+0
 0
 29
 29
 DIY modules
-ARDUINO-PRO-MINI#NP
-<b>Arduino Pro Mini</b><br>
-Footprint without programming pads
+0
+0
+0
 
 0
 29
 29
-DIY modules
-ARDUINO-PRO-MINI#SMP
-<b>Arduino Pro Mini</b><br>
+0
+0
+0
 Footprint with 2 connectors only
 
 0
 24
 24
-DIY modules
-BATTERY-CHARGER-LI-5V
+0
+0
 <b>Lithium Battery 5V Charger</b>
 
 0
 4
 4
-DIY modules
-BATTERY-CHARGER-LI-PROT
+0
+0
 <b>Protected Lithium Battery 5V Charger</b> with micro-USB connector
 
 0
 6
 6
-DIY modules
-BATTERY-HOLDER-2AA
+0
+0
 <b>2 x AA Battery Holder</b>
 
 0
 2
 2
-DIY modules
-BATTERY-HOLDER-2AAA
+0
+0
 <b>2 x AAA Battery Holder</b>
 
 0
 2
 2
-DIY modules
-BATTERY-LI-MH12210
+0
+0
 <b>Lithium-Ion MH12210 Rechargeable Battery</b>
 
 0
 2
 2
-DIY modules
-BREADBOARD-POWER-V1
+0
+0
 <b>Breadboard Power Adapter</b> with onboard 3.3V and 5V regulators
 
 0
 20
 20
-DIY modules
-BREADBOARD-POWER-V2
+0
+0
 <b>Breadboard Power Adapter</b> with onboard 3.3V and 5V regulators
 
 0
 8
 8
-DIY modules
-CARD-SD-ADAPTER
+0
+0
 <b>Full Size SD Card Adapter Module</b> with onboard 3.3V regulator
 
 0
 16
 16
-DIY modules
-COMPASS-HMC5883L
+0
+0
 <b>3-Axis Digital Compass Module</b> based on <b>HMC5883L</b> chip
 
 0
 5
 5
-DIY modules
-CURRENT-SENSOR-ACS712
+0
+0
 <b>Isolated Bipolar Current Sensors</b> based on <b>ACS712</b> chip
 
 0
 3
 3
-DIY modules
-CURRENT-SENSOR-ACS712#IC
+0
+0
 <b>Isolated Bipolar Current Sensors</b> based on <b>ACS712</b> chip<br>
 Footprint with input connector
 
 0
 5
 5
-DIY modules
+0
 DATA-LOGGER-MINI
 <b>Mini Data Logger</b> with <b>microSD card</b> and  battery powered <b>RTC</b> based on <b>DS1307</b> chip
 
 0
 8
 8
-DIY modules
+0
 DC-DC-LM2596-DISP
 <b>DC/DC Step-Down Regulator</b> with <b>Voltage Display</b> based on <b>LM2596-ADJ</b> chip
 
 0
 4
 4
-DIY modules
+0
 DC-DC-LM2596-DISP#RC
 <b>DC/DC Step-Down Regulator</b> with <b>Voltage Display</b> based on <b>LM2596-ADJ</b> chip<br />
 Footprint with connector pins.
@@ -458,205 +458,205 @@ DIY modules
 DISPLAY-OLED-128X64
 <b>128x64 Dot Matrix OLED Module</b><br />
 Variant with SPI interface
-
+0
 0
 7
 7
 DIY modules
 DISPLAY-OLED-128X64-I2C
 <b>128x64 Dot Matrix OLED Module</b><br />
-Variant with I2C interface
-
+0
+0
 0
 4
 4
 DIY modules
 DRIVER-ULN2003
-<b>7-Channel Darlington NPN Transistor Module</b> based on <b>ULN2003</b> chip<br>
-
+0
+0
 0
 18
 18
 DIY modules
 DRIVER-ULN2003#MC
-<b>7-Channel Darlington NPN Transistor Module</b> based on <b>ULN2003</b> chip<br>
-Footprint with motor connector
-
+0
+0
+0
 0
 23
 23
 DIY modules
-ETHERNET-ENC28J60
-<b>Ethernet Module</b> based on <b>ENC28J60</b> chip
-
+0
+0
+0
 0
 12
 12
 DIY modules
-FLAME-DETECTOR
-<b>Flame Detector</b>
-
+0
+0
+0
 0
 4
 4
 DIY modules
-GAS-SENSOR-MQ2
-<b>Gas Sensor</b> based on <b>MQ-2</b> device
-
+0
+0
+0
 0
 4
 4
 DIY modules
-GPS-RECEIVER-NEO6M
-<b>GPS Receiver Module</b> based on <b>NEO-6</b> device
-
+0
+0
+0
 0
 5
 5
 DIY modules
-GSM-MODEM-SIM900A
-<b>GSM Mini Module</b> based on <b>SIM900A</b>
-
+0
+0
+0
 0
 8
 8
 DIY modules
-IR-RECEIVER
-<b>IR Receiver Module</b>
-
+0
+0
+0
 0
 9
 9
 DIY modules
-IR-RECEIVER#NC
-<b>IR Receiver Module</b><br>
-Symbol wihtout IR sensor connector
+0
+0
+0
 
 0
 6
 6
-DIY modules
-JOYSTICK-2AXIS-BUTTON
-<b>2-Axis Analog Joystick</b> with Push Button
+0
+0
+0
 
 0
 5
 5
-DIY modules
-LCD-I2C-CONVERTER
-<b>I2C Bus to 4-Bit Parallel LCD Interface</b> with LED backlight driver
+0
+0
+0
 
 0
 20
 20
-DIY modules
-LED-8XRGB-LINE
-<b>8 LEDs RGB Line Display</b> based on <b>WS2812B</b>
+0
+0
+0
 
 0
 8
 8
-DIY modules
-LED-15XRGB-QRING
-<b>15 LEDs RGB Quarter-Ring</b> based on <b>WS2812B</b>
+0
+0
+0
 
 0
 6
 6
-DIY modules
-LED-24XRGB-RING
-<b>24 LEDs RGB Ring</b> based on <b>WS2812B</b>
+0
+0
+0
 
 0
 6
 6
-DIY modules
-LEVEL-SHIFTER-4CH
-<b>4-Channel Bi-Directional  Logic Level Converter</b> based on <b>BSS128</b> transistors
+0
+0
+0
 
 0
 12
 12
-DIY modules
-LEVEL-SHIFTER-8CH
-<b>8-Channel Bi-Directional  Logic Level Converter</b> based on <b>BSS128</b> transistors
+0
+0
+0
 
 0
 20
 20
-DIY modules
-LIGHT-DETECTOR
-<b>Light Detection Module</b>
+0
+0
+0
 
 0
 3
 3
-DIY modules
-LIGHT-SENSOR-BH1750
-<b>Digital Light Sensor</b> based on <b>BH1750</b>
+0
+0
+0
 
 0
 5
 5
-DIY modules
-MOTION-PIR-DYP-ME003
-<b>PIR Motion Sensor Module DYP-ME003</b> based on <b>BISS0001</b> pyroelectic detector
+0
+0
+0
 
 0
 3
 3
-DIY modules
-N-MOSFET-SWITCH
-<b>Low Side N-MOSFET Switch</b> with <b>Optocoupler</b>
+0
+0
+0
 
 0
 3
 3
-DIY modules
-N-MOSFET-SWITCH#IC
-<b>Low Side N-MOSFET Switch</b> with <b>Optocoupler</b><br />
+0
+0
+0
 Package with connector pins
 
 0
 7
 7
-DIY modules
-PWM-SERVO-DRIVER-16CH
+0
+0
 <b>16-Channel 12-bit PWM/Servo Driver</b> based on <b>PCA9685</b> chip
 
 0
 62
 62
-DIY modules
-RADIO-RECEIVER-DCF77
+0
+0
 <b>DCF-77 Longwave Radio Time Signal Receiver</b> based on <b>MAS6180B1</b> chip
 
 0
 8
 8
-DIY modules
-RANGING-SENSOR-VL53L0X
+0
+0
 <b>Laser Ranging Sensor</b> based on <b>VL53L0X</b> device
 
 0
 6
 6
-DIY modules
-REG-AMS1117
+0
+0
 <b>Linear Regulator</b> based on <b>AMS1117</b> chip
 
 0
 4
 4
-DIY modules
-REG-AMS1117-3P
+0
+0
 <b>Linear Regulator</b> based on <b>AMS1117</b> chip<br />
 3-pin version
 
 0
 3
 3
-DIY modules
+0
 REG-AMS1117-3P#V
 <b>Linear Regulator</b> based on <b>AMS1117</b> chip<br />
 3-pin version, vertically mounted
@@ -675,275 +675,275 @@ DIY modules
 RELAY-1-SRD#RC
 <b>1-Channel Relay Module</b> based on <b>SRD-05VDC-SL-C</b> relay<br>
 Footprint with relays connector
-
+0
 0
 8
 8
 DIY modules
 RELAY-2-SRD
 <b>2-Channel Relay Module</b> based on <b>SRD-05VDC-SL-C</b> relays
-
+0
 0
 7
 7
 DIY modules
 RELAY-2-SRD#RC
 <b>2-Channel Relay Module</b> based on <b>SRD-05VDC-SL-C</b> relays<br />
-Footprint with relays connector
-
+0
+0
 0
 13
 13
 DIY modules
 RELAY-4-SRD
-<b>4-Channel Relay Module</b> based on <b>SRD-05VDC-SL-C</b> relays
-
+0
+0
 0
 8
 8
 DIY modules
 RELAY-4-SRD#RC
-<b>4-Channel Relay Module</b> based on <b>SRD-05VDC-SL-C</b> relays<br />
-Footprint with relays connector
-
+0
+0
+0
 0
 20
 20
 DIY modules
-RELAY-8-SRD
-<b>8-Channel Relay Module</b> based on <b>SRD-05VDC-SL-C</b> relays
-
+0
+0
+0
 0
 13
 13
 DIY modules
-RELAY-8-SRD#RC
-<b>8-Channel Relay Module</b> based on <b>SRD-05VDC-SL-C</b> relays<br />
-Footprint with relays connector
+0
+0
+0
 
 0
 37
 37
-DIY modules
-RS485-TTL-CONVERTER
-<b>RS485 to TTL converter</b> based on <b>MAX485</b> chip
+0
+0
+0
 
 0
 8
 8
-DIY modules
-RTC-DS3231-AT24C32
-<b>RTC Module with Battery and EEPROM</b> based on <b>DS3231</b> and <b>AT24C32</b> chips
+0
+0
+0
 
 0
 10
 10
-DIY modules
-RTC-EEPROM-BATTERY
-<b>RTC Module with Battery and EEPROM</b> based on <b>DS1307</b> and <b>AT24C32</b> chips
+0
+0
+0
 
 0
 12
 12
-DIY modules
-SOIL-MOISTURE-SENSOR
-<b>Soil Moisture Sensor</b>
+0
+0
+0
 
 0
 6
 6
-DIY modules
-SOUND-BUZZER
-<b>Sound Buzzer Module</b>
+0
+0
+0
 
 0
 3
 3
-DIY modules
-SOUND-DETECTOR
-<b>Sound Detection Module</b>
+0
+0
+0
 
 0
 3
 3
-DIY modules
-SPARKFUN-AD-MUX-16X1
-<b>SparkFun Analog/Digital MUX Breakout</b> based on <b>CD74HC4067</b> chip
+0
+0
+0
 
 0
 24
 24
-DIY modules
-STEPPER-MOTOR-DRIVER-L6470
-<b>Stepper Motor Driver</b> based on <b>L6470</b> chip
+0
+0
+0
 
 0
 21
 21
-DIY modules
-STEPPER-MOTOR-EASY-DRIVER
-<b>Stepper Motor Easy Driver</b>
+0
+0
+0
 
 0
 17
 17
-DIY modules
-TEMP-HUM-PRES-BME280
-<b>Digital Humidity-Temperature-Pressure Sensor</b> based on <b>BME280</b> device
+0
+0
+0
 
 0
 4
 4
-DIY modules
-TEMP-HUM-SENSOR-AM2322
-<b>AM2322 - digital humidity & temperature sensor</b>
+0
+0
+0
 
 0
 4
 4
-DIY modules
-TEMP-HUM-SENSOR-DHT11
-<b>DHT11 - digital humidity & temperature sensor</b>
+0
+0
+0
 
 0
 4
 4
-DIY modules
-TEMP-HUM-SENSOR-DHT22
-<b>DHT22 - digital humidity & temperature sensor</b>
+0
+0
+0
 
 0
 4
 4
-DIY modules
-TEMP-HUM-SENSOR-HTU21D
-<b>Digital Humidity & Temperature Sensor</b> based on <b>HTU21D</b> device
+0
+0
+0
 
 0
 4
 4
-DIY modules
-THERMOCOUPLE-MAX31855
-<b>Thermocouple Analog-to-Digital Converter</b> based on <b>MAX31855</b> chip
+0
+0
+0
 
 0
 5
 5
-DIY modules
-THERMOCOUPLE-MAX31855#IC
-<b>Thermocouple Analog-to-Digital Converter</b> based on <b>MAX31855</b> chip<br />
+0
+0
+0
 Footprint with thermocouple connector pins
 
 0
 7
 7
-DIY modules
-TOUCH-KEYPAD-4X1
+0
+0
 <b>4 Channel Capacitive Touch Keypad</b>
 
 0
 6
 6
-DIY modules
-TOUCH-KEYPAD-4X2
+0
+0
 <b>8 Channel Capacitive Touch Keypad</b>
 
 0
 11
 11
-DIY modules
-TOUCH-KEYPAD-4X4
+0
+0
 <b>16 Channel Capacitive Touch Keypad</b>
 
 0
 12
 12
-DIY modules
-ULTRASONIC-HC-SR04
+0
+0
 <b>Ultrasonic Ranging Module HC-SR04</b>
 
 0
 4
 4
-DIY modules
-ULTRASONIC-HC-SR04#V
+0
+0
 <b>Ultrasonic Ranging Module HC-SR04</b> vertically mounted
 
 0
 4
 4
-DIY modules
-USB-SERIAL-CP2102
+0
+0
 <b>USB to Serial UART Converter</b> based on <b>CP2102</b> chip
 
 0
 6
 6
-DIY modules
-USB-SERIAL-FT232R
+0
+0
 <b>USB to Serial UART Converter</b> based on <b>FT232R</b> chip
 
 0
 6
 6
-DIY modules
-UV-SENSOR-ML8511
+0
+0
 <b>UV  Sensor</b> based on <b>ML8511</b> device
 
 0
 5
 5
-DIY modules
-WEMOS-D1-MINI
+0
+0
 <b>WEMOS D1 mini</b>: Mini Wi-Fi Board based on <b>ESP-8266</b> device
 
 0
 16
 16
-DIY modules
-WEMOS-D1-MINI-PRO
+0
+0
 <b>WEMOS D1 mini Pro</b>: Mini Wi-Fi Board based on <b>ESP-8266EX</b> chip
 
 0
 16
 16
-DIY modules
-WEMOS-D1-MINI-SHIELD
+0
+0
 Template package for <b>WEMOS D1 mini</b> shields
 
 0
 16
 16
-DIY modules
-WIRELESS-BLUETOOTH-BK8000
+0
+0
 <b>Bluetooth Audio Module</b> based on <b>BK8000L</b> chip
 
 0
 32
 32
-DIY modules
-WIRELESS-BLUETOOTH-HC-05
+0
+0
 <b>Bluetooth Transceiver Module</b> based on <b>HC-05</b> board
 
 0
 6
 6
-DIY modules
-WIRELESS-BLUETOOTH-XS3868
+0
+0
 <b>Bluetooth Stereo Audio Module</b> based on <b>OVC3860</b> chip
 
 0
 23
 23
-DIY modules
-WIRELESS-LORA-RFM95W#SMD
+0
+0
 <b>868/915 MHz LoRa Radio Transceiver Module</b><br />
 Footprint for SMD assembly.
 
 0
 16
 16
-DIY modules
+0
 WIRELESS-LORA-RFM95W#THT
 <b>868/915 MHz LoRa Radio Transceiver Module</b><br />
 Footprint for THT assembly.
