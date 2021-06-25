@@ -1,4 +1,4 @@
-1566730098139778
+1568354711583703
 Barrel Jack
 BarrelJack_CLIFF_FC681465S_SMT_Horizontal
 Surface-mount DC Barrel Jack, https://www.cliffuk.co.uk/products/dcconnectors/FC681465S.pdf
@@ -2974,6 +2974,13 @@ Surface mounted socket strip SMD 2x40 2.54mm double row
 0
 80
 80
+PowerPole
+45A-VERT-PAIR
+Use through-hole center to align with adjacent PowerPole connectors.  Do not rely on housing outlines.
+Anderson Powerpole 25A PCB right angle G2
+0
+2
+2
 SMD Capacitor
 CP_Elec_3x5.3
 SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics 

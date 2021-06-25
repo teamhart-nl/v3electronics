@@ -451,26 +451,15 @@ GND
 Wire Wire Line
 	3900 1450 3900 1350
 $Comp
-L Connector:Conn_01x22_Female J2
+L Connector:Conn_01x22_Female J1
 U 1 1 60DEA836
 P 2550 2800
-F 0 "J2" H 2442 3985 50  0000 C CNN
+F 0 "J1" H 2442 3985 50  0000 C CNN
 F 1 "Conn_01x22_Female" H 2442 3894 50  0000 C CNN
 F 2 "Pin Socket 2.54mm:PinSocket_2x11_P2.54mm_Vertical" H 2550 2800 50  0001 C CNN
 F 3 "~" H 2550 2800 50  0001 C CNN
 	1    2550 2800
 	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Barrel_Jack J1
-U 1 1 60E0F3C8
-P 2400 1100
-F 0 "J1" H 2457 1425 50  0000 C CNN
-F 1 "Barrel_Jack" H 2457 1334 50  0000 C CNN
-F 2 "Barrel Jack:BarrelJack_CUI_PJ-102AH_Horizontal" H 2450 1060 50  0001 C CNN
-F 3 "~" H 2450 1060 50  0001 C CNN
-	1    2400 1100
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR02
@@ -681,4 +670,15 @@ Wire Wire Line
 Wire Wire Line
 	8200 1250 8200 2300
 Connection ~ 8200 2300
+$Comp
+L AndersonPowerPole:PowerPole J2
+U 1 1 60DED7AA
+P 2400 850
+F 0 "J2" H 2457 925 50  0000 C CNN
+F 1 "PowerPole" H 2457 834 50  0000 C CNN
+F 2 "PowerPole:45A-VERT-PAIR" H 2400 850 50  0001 C CNN
+F 3 "" H 2400 850 50  0001 C CNN
+	1    2400 850 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
