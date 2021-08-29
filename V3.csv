@@ -1,9 +1,0 @@
-"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
-1;"";"hart-logo-2000-2000dpi";1;"";;;
-2;"J2";"PinSocket_2x11_P2.54mm_Vertical";1;"Conn_01x22_Female";;;
-3;"R1,R2,R3,R4";"R_1206_3216Metric_Pad1.30x1.75mm_HandSolder";4;"2200";;;
-4;"U3,U4,U11,U1,U2,U5,U6,U7,U8,U9,U10,U12";"AMPLIFIER-PAM8403";12;"AMPLIFIER-PAM8403";;;
-5;"J1";"BarrelJack_CUI_PJ-102AH_Horizontal";1;"Barrel_Jack";;;
-6;"IC2,IC1,IC3,IC4,IC5,IC6";"SOP65P640X120-20N";6;"MCP4451-103E_ST";;;
-7;"LS1,LS2,LS3,LS4,LS5,LS6,LS7,LS8,LS9,LS10,LS11,LS12,LS13,LS14,LS15,LS16,LS17,LS18,LS19,LS20,LS21,LS22,LS23,LS24";"PinSocket_1x02_P2.54mm_Vertical";24;"Speaker";;;
-8;"R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28";"R_1206_3216Metric_Pad1.30x1.75mm_HandSolder";24;"51000";;;
