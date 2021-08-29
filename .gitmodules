@@ -10,3 +10,6 @@
 [submodule "Lib/Connectors_Anderson.pretty"]
 	path = Lib/Connectors_Anderson.pretty
 	url = https://github.com/imuli/Connectors_Anderson.pretty.git
+[submodule "Lib/Tall-Dog-Public"]
+	path = Lib/Tall-Dog-Public
+	url = https://github.com/loglow/Tall-Dog-Public.git

@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name v3-rescue)(type Legacy)(uri ${KIPRJMOD}/v3-rescue.lib)(options "")(descr ""))
+  (lib (name AndersonPowerPole)(type Legacy)(uri ${KIPRJMOD}/Lib/AndersonPowerPole.lib)(options "")(descr ""))
+  (lib (name V3-1-bot-rescue)(type Legacy)(uri ${KIPRJMOD}/V3-1-bot-rescue.lib)(options "")(descr ""))
+  (lib (name V3-1-top-rescue)(type Legacy)(uri ${KIPRJMOD}/V3-1-top-rescue.lib)(options "")(descr ""))
+)
