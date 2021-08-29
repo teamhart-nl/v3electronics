@@ -13,7 +13,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 1300 4750 0    50   Output ~ 0
+Text GLabel 1300 5050 0    50   Output ~ 0
 FREQ8
 Text GLabel 1300 4050 0    50   Output ~ 0
 FREQ1
@@ -23,19 +23,19 @@ Text GLabel 1300 4150 0    50   Output ~ 0
 FREQ2
 Text GLabel 1300 4250 0    50   Output ~ 0
 FREQ3
-Text GLabel 1300 4350 0    50   Output ~ 0
-FREQ4
 Text GLabel 1300 4450 0    50   Output ~ 0
-FREQ5
+FREQ4
 Text GLabel 1300 4550 0    50   Output ~ 0
-FREQ6
+FREQ5
 Text GLabel 1300 4650 0    50   Output ~ 0
+FREQ6
+Text GLabel 1300 4750 0    50   Output ~ 0
 FREQ7
-Text GLabel 1300 4850 0    50   Output ~ 0
+Text GLabel 1300 5150 0    50   Output ~ 0
 FREQ9
-Text GLabel 1300 4950 0    50   Output ~ 0
+Text GLabel 1300 5250 0    50   Output ~ 0
 FREQ10
-Text GLabel 1300 5050 0    50   Output ~ 0
+Text GLabel 3500 5250 2    50   Output ~ 0
 FREQ11
 Text GLabel 3500 4950 2    50   BiDi ~ 0
 SCL1
@@ -45,15 +45,15 @@ Text GLabel 3500 4750 2    50   BiDi ~ 0
 SDA0
 Text GLabel 3500 4650 2    50   BiDi ~ 0
 SCL0
-Text GLabel 1300 5150 0    50   Output ~ 0
+Text GLabel 3500 5150 2    50   Output ~ 0
 FREQ12
-Text GLabel 1300 5250 0    50   Output ~ 0
+Text GLabel 3500 5050 2    50   Output ~ 0
 FREQ13
-Text GLabel 1300 5350 0    50   Output ~ 0
+Text GLabel 3500 4350 2    50   Output ~ 0
 FREQ14
-Text GLabel 1300 5750 0    50   Output ~ 0
+Text GLabel 3500 4250 2    50   Output ~ 0
 FREQ15
-Text GLabel 1300 5850 0    50   Output ~ 0
+Text GLabel 3500 5550 2    50   Output ~ 0
 FREQ16
 Text GLabel 3500 4150 2    50   Output ~ 0
 TeensyVDD
@@ -648,16 +648,9 @@ TeensyGND
 NoConn ~ 3500 5850
 NoConn ~ 3500 5750
 NoConn ~ 3500 5650
-NoConn ~ 3500 5550
 NoConn ~ 3500 5450
 NoConn ~ 3500 5350
-NoConn ~ 3500 5250
-NoConn ~ 3500 5150
-NoConn ~ 3500 5050
 NoConn ~ 3500 4550
-NoConn ~ 3500 4450
-NoConn ~ 3500 4350
-NoConn ~ 3500 4250
 NoConn ~ 3500 3950
 NoConn ~ 3500 3850
 NoConn ~ 3500 3750
@@ -767,4 +760,11 @@ F 3 "~" H 8000 3050 50  0001 C CNN
 	1    8000 3050
 	-1   0    0    1   
 $EndComp
+NoConn ~ 1300 5350
+NoConn ~ 1300 5850
+NoConn ~ 1300 5750
+NoConn ~ 1300 4950
+NoConn ~ 1300 4850
+NoConn ~ 1300 4350
+NoConn ~ 3500 4450
 $EndSCHEMATC

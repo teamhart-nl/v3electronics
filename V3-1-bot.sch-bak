@@ -13,7 +13,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 1300 4750 0    50   Output ~ 0
+Text GLabel 1300 5050 0    50   Output ~ 0
 FREQ8
 Text GLabel 1300 4050 0    50   Output ~ 0
 FREQ1
@@ -23,19 +23,19 @@ Text GLabel 1300 4150 0    50   Output ~ 0
 FREQ2
 Text GLabel 1300 4250 0    50   Output ~ 0
 FREQ3
-Text GLabel 1300 4350 0    50   Output ~ 0
-FREQ4
 Text GLabel 1300 4450 0    50   Output ~ 0
-FREQ5
+FREQ4
 Text GLabel 1300 4550 0    50   Output ~ 0
-FREQ6
+FREQ5
 Text GLabel 1300 4650 0    50   Output ~ 0
+FREQ6
+Text GLabel 1300 4750 0    50   Output ~ 0
 FREQ7
-Text GLabel 1300 4850 0    50   Output ~ 0
+Text GLabel 1300 5150 0    50   Output ~ 0
 FREQ9
-Text GLabel 1300 4950 0    50   Output ~ 0
+Text GLabel 1300 5250 0    50   Output ~ 0
 FREQ10
-Text GLabel 1300 5050 0    50   Output ~ 0
+Text GLabel 3500 5250 2    50   Output ~ 0
 FREQ11
 Text GLabel 3500 4950 2    50   BiDi ~ 0
 SCL1
@@ -45,15 +45,15 @@ Text GLabel 3500 4750 2    50   BiDi ~ 0
 SDA0
 Text GLabel 3500 4650 2    50   BiDi ~ 0
 SCL0
-Text GLabel 1300 5150 0    50   Output ~ 0
+Text GLabel 3500 5150 2    50   Output ~ 0
 FREQ12
-Text GLabel 1300 5250 0    50   Output ~ 0
+Text GLabel 3500 5050 2    50   Output ~ 0
 FREQ13
-Text GLabel 1300 5350 0    50   Output ~ 0
+Text GLabel 3500 4350 2    50   Output ~ 0
 FREQ14
-Text GLabel 1300 5750 0    50   Output ~ 0
+Text GLabel 3500 4250 2    50   Output ~ 0
 FREQ15
-Text GLabel 1300 5850 0    50   Output ~ 0
+Text GLabel 3500 5550 2    50   Output ~ 0
 FREQ16
 Text GLabel 3500 4150 2    50   Output ~ 0
 TeensyVDD
@@ -388,7 +388,7 @@ U 1 1 6138AFFE
 P 6850 1600
 F 0 "J2" H 6742 775 50  0000 C CNN
 F 1 "Conn_01x12_Female" H 6742 866 50  0000 C CNN
-F 2 "" H 6850 1600 50  0001 C CNN
+F 2 "Pin Socket 2.54mm:PinSocket_2x06_P2.54mm_Vertical" H 6850 1600 50  0001 C CNN
 F 3 "~" H 6850 1600 50  0001 C CNN
 	1    6850 1600
 	-1   0    0    1   
@@ -399,7 +399,7 @@ U 1 1 613941BA
 P 6850 2950
 F 0 "J3" H 6742 3543 50  0000 C CNN
 F 1 "Conn_01x12_Female" H 6742 3634 50  0000 C CNN
-F 2 "" H 6850 2950 50  0001 C CNN
+F 2 "Pin Socket 2.54mm:PinSocket_2x06_P2.54mm_Vertical" H 6850 2950 50  0001 C CNN
 F 3 "~" H 6850 2950 50  0001 C CNN
 	1    6850 2950
 	-1   0    0    1   
@@ -538,7 +538,7 @@ U 1 1 612BD5A4
 P 2400 4600
 F 0 "U1" H 2400 6215 50  0000 C CNN
 F 1 "Teensy4.0-Tall-Dog-Breakout" H 2400 6124 50  0000 C CNN
-F 2 "" H 2400 3100 50  0001 C CNN
+F 2 "Teensy:TallDogTeensy4.0Breakout" H 2400 3100 50  0001 C CNN
 F 3 "" H 2400 3100 50  0001 C CNN
 	1    2400 4600
 	1    0    0    -1  
@@ -648,16 +648,9 @@ TeensyGND
 NoConn ~ 3500 5850
 NoConn ~ 3500 5750
 NoConn ~ 3500 5650
-NoConn ~ 3500 5550
 NoConn ~ 3500 5450
 NoConn ~ 3500 5350
-NoConn ~ 3500 5250
-NoConn ~ 3500 5150
-NoConn ~ 3500 5050
 NoConn ~ 3500 4550
-NoConn ~ 3500 4450
-NoConn ~ 3500 4350
-NoConn ~ 3500 4250
 NoConn ~ 3500 3950
 NoConn ~ 3500 3850
 NoConn ~ 3500 3750
@@ -707,7 +700,7 @@ U 1 1 612BCB34
 P 8050 1850
 F 0 "J9" H 8078 1876 50  0000 L CNN
 F 1 "Conn_01x03_Female" H 8078 1785 50  0000 L CNN
-F 2 "" H 8050 1850 50  0001 C CNN
+F 2 "Pin Socket 2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 8050 1850 50  0001 C CNN
 F 3 "~" H 8050 1850 50  0001 C CNN
 	1    8050 1850
 	-1   0    0    1   
@@ -718,7 +711,7 @@ U 1 1 612C6BE2
 P 8050 1550
 F 0 "J8" H 8078 1576 50  0000 L CNN
 F 1 "Conn_01x03_Female" H 8078 1485 50  0000 L CNN
-F 2 "" H 8050 1550 50  0001 C CNN
+F 2 "Pin Socket 2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 8050 1550 50  0001 C CNN
 F 3 "~" H 8050 1550 50  0001 C CNN
 	1    8050 1550
 	-1   0    0    1   
@@ -729,7 +722,7 @@ U 1 1 612C9532
 P 8050 1250
 F 0 "J7" H 8078 1276 50  0000 L CNN
 F 1 "Conn_01x03_Female" H 8078 1185 50  0000 L CNN
-F 2 "" H 8050 1250 50  0001 C CNN
+F 2 "Pin Socket 2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 8050 1250 50  0001 C CNN
 F 3 "~" H 8050 1250 50  0001 C CNN
 	1    8050 1250
 	-1   0    0    1   
@@ -740,7 +733,7 @@ U 1 1 612D2597
 P 8000 2450
 F 0 "J4" H 8028 2476 50  0000 L CNN
 F 1 "Conn_01x03_Female" H 8028 2385 50  0000 L CNN
-F 2 "" H 8000 2450 50  0001 C CNN
+F 2 "Pin Socket 2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 8000 2450 50  0001 C CNN
 F 3 "~" H 8000 2450 50  0001 C CNN
 	1    8000 2450
 	-1   0    0    1   
@@ -751,7 +744,7 @@ U 1 1 612D4A68
 P 8000 2750
 F 0 "J5" H 8028 2776 50  0000 L CNN
 F 1 "Conn_01x03_Female" H 8028 2685 50  0000 L CNN
-F 2 "" H 8000 2750 50  0001 C CNN
+F 2 "Pin Socket 2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 8000 2750 50  0001 C CNN
 F 3 "~" H 8000 2750 50  0001 C CNN
 	1    8000 2750
 	-1   0    0    1   
@@ -762,9 +755,16 @@ U 1 1 612D7199
 P 8000 3050
 F 0 "J6" H 8028 3076 50  0000 L CNN
 F 1 "Conn_01x03_Female" H 8028 2985 50  0000 L CNN
-F 2 "" H 8000 3050 50  0001 C CNN
+F 2 "Pin Socket 2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 8000 3050 50  0001 C CNN
 F 3 "~" H 8000 3050 50  0001 C CNN
 	1    8000 3050
 	-1   0    0    1   
 $EndComp
+NoConn ~ 1300 5350
+NoConn ~ 1300 5850
+NoConn ~ 1300 5750
+NoConn ~ 1300 4950
+NoConn ~ 1300 4850
+NoConn ~ 1300 4350
+NoConn ~ 3500 4450
 $EndSCHEMATC
