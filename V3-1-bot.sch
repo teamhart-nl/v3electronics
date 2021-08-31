@@ -475,8 +475,6 @@ GND
 Text GLabel 8200 2350 2    50   Input ~ 0
 GND
 NoConn ~ 8250 1650
-Text GLabel 8200 2750 2    50   Input ~ 0
-TeensyGND
 Text GLabel 8250 1550 2    50   Input ~ 0
 TeensyVDD
 Text GLabel 8200 3150 2    50   Input ~ 0
@@ -538,7 +536,7 @@ U 1 1 612BD5A4
 P 2400 4600
 F 0 "U1" H 2400 6215 50  0000 C CNN
 F 1 "Teensy4.0-Tall-Dog-Breakout" H 2400 6124 50  0000 C CNN
-F 2 "Teensy:TallDogTeensy4.0Breakout" H 2400 3100 50  0001 C CNN
+F 2 "HART:TallDogTeensy4.0Breakout" H 2400 3100 50  0001 C CNN
 F 3 "" H 2400 3100 50  0001 C CNN
 	1    2400 4600
 	1    0    0    -1  
@@ -767,4 +765,5 @@ NoConn ~ 1300 4950
 NoConn ~ 1300 4850
 NoConn ~ 1300 4350
 NoConn ~ 3500 4450
+NoConn ~ 8200 2750
 $EndSCHEMATC

@@ -486,8 +486,6 @@ Text GLabel 4550 1650 2    50   Input ~ 0
 FREQ15
 Text GLabel 4550 1750 2    50   Input ~ 0
 FREQ16
-Text GLabel 4550 2600 2    50   Input ~ 0
-TeensyGND
 Text GLabel 4550 950  2    50   Input ~ 0
 VDD
 Text GLabel 4550 3000 2    50   Input ~ 0
@@ -656,4 +654,5 @@ Wire Notes Line
 	3950 550  3950 4600
 Wire Notes Line
 	2850 550  2850 4600
+NoConn ~ 4550 2600
 $EndSCHEMATC

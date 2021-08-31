@@ -1,4 +1,4 @@
-1558645368186694
+1560276001034694
 Connector
 Banana_Jack_1Pin
 Single banana socket, footprint - 6mm drill
@@ -958,6 +958,13 @@ Stereo Class-D 3W Audio Amplifier based on PAM8403 chip
 0
 9
 9
+HART
+TallDogTeensy4.0Breakout
+Teensy 4.0 Breakout board
+
+0
+56
+53
 HART
 hart-logo
 
