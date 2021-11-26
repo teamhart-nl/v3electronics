@@ -1,15 +1,3 @@
-[submodule "Lib/kicad-symbols"]
-	path = Lib/kicad-symbols
-	url = https://github.com/KiCad/kicad-symbols.git
-[submodule "Lib/kicad-footprints"]
-	path = Lib/kicad-footprints
-	url = https://gitlab.com/kicad/libraries/kicad-footprints.git
-[submodule "Lib/teensy.pretty"]
-	path = Lib/teensy.pretty
-	url = https://github.com/XenGi/teensy.pretty.git
-[submodule "Lib/Connectors_Anderson.pretty"]
-	path = Lib/Connectors_Anderson.pretty
-	url = https://github.com/imuli/Connectors_Anderson.pretty.git
-[submodule "Lib/Tall-Dog-Public"]
-	path = Lib/Tall-Dog-Public
-	url = https://github.com/loglow/Tall-Dog-Public.git
+[submodule "kicad-packages"]
+	url = https://github.com/teamhart-nl/kicad-packages.git
+	path = kicad-packages

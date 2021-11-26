@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 4 4
 Title "Perception V3.1"
 Date "2021-08-29"
 Rev "01"
@@ -24,9 +24,9 @@ TeensyGND
 Wire Wire Line
 	2750 3500 3050 3500
 $Comp
-L v3-rescue:R-Device R?
+L pspice:R R?
 U 1 1 60E20D7F
-P 2900 3200
+P 2800 3200
 AR Path="/60E20D7F" Ref="R?"  Part="1" 
 AR Path="/60B3C664/60E20D7F" Ref="R?"  Part="1" 
 AR Path="/60B3C664/60D625EB/60E20D7F" Ref="R?"  Part="1" 
@@ -52,17 +52,17 @@ AR Path="/612FF705/60E20D7F" Ref="R11"  Part="1"
 AR Path="/612C106E/60E20D7F" Ref="R3"  Part="1" 
 AR Path="/612B5551/60E20D7F" Ref="R7"  Part="1" 
 AR Path="/612B612B/60E20D7F" Ref="R11"  Part="1" 
-F 0 "R3" V 2693 3200 50  0001 C CNN
-F 1 "51000" V 2784 3200 50  0001 C CNN
-F 2 "SMD Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2830 3200 50  0001 C CNN
-F 3 "~" H 2900 3200 50  0001 C CNN
-	1    2900 3200
+F 0 "R11" V 2593 3200 50  0001 C CNN
+F 1 "51000" V 2684 3200 50  0001 C CNN
+F 2 "SMD Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2730 3200 50  0001 C CNN
+F 3 "~" H 2800 3200 50  0001 C CNN
+	1    2800 3200
 	0    1    1    0   
 $EndComp
 $Comp
-L v3-rescue:R-Device R?
+L pspice:R R?
 U 1 1 60E20D85
-P 2900 4100
+P 2800 4100
 AR Path="/60E20D85" Ref="R?"  Part="1" 
 AR Path="/60B3C664/60E20D85" Ref="R?"  Part="1" 
 AR Path="/60B3C664/60D625EB/60E20D85" Ref="R?"  Part="1" 
@@ -88,17 +88,17 @@ AR Path="/612FF705/60E20D85" Ref="R12"  Part="1"
 AR Path="/612C106E/60E20D85" Ref="R4"  Part="1" 
 AR Path="/612B5551/60E20D85" Ref="R8"  Part="1" 
 AR Path="/612B612B/60E20D85" Ref="R12"  Part="1" 
-F 0 "R4" V 2693 4100 50  0001 C CNN
-F 1 "51000" V 2784 4100 50  0001 C CNN
-F 2 "SMD Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2830 4100 50  0001 C CNN
-F 3 "~" H 2900 4100 50  0001 C CNN
-	1    2900 4100
+F 0 "R12" V 2593 4100 50  0001 C CNN
+F 1 "51000" V 2684 4100 50  0001 C CNN
+F 2 "SMD Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2730 4100 50  0001 C CNN
+F 3 "~" H 2800 4100 50  0001 C CNN
+	1    2800 4100
 	0    1    1    0   
 $EndComp
 $Comp
-L v3-rescue:R-Device R?
+L pspice:R R?
 U 1 1 60E20D8B
-P 4500 4100
+P 4600 4100
 AR Path="/60E20D8B" Ref="R?"  Part="1" 
 AR Path="/60B3C664/60E20D8B" Ref="R?"  Part="1" 
 AR Path="/60B3C664/60D625EB/60E20D8B" Ref="R?"  Part="1" 
@@ -124,17 +124,17 @@ AR Path="/612FF705/60E20D8B" Ref="R14"  Part="1"
 AR Path="/612C106E/60E20D8B" Ref="R6"  Part="1" 
 AR Path="/612B5551/60E20D8B" Ref="R10"  Part="1" 
 AR Path="/612B612B/60E20D8B" Ref="R14"  Part="1" 
-F 0 "R6" V 4293 4100 50  0001 C CNN
-F 1 "51000" V 4384 4100 50  0001 C CNN
-F 2 "SMD Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 4430 4100 50  0001 C CNN
-F 3 "~" H 4500 4100 50  0001 C CNN
-	1    4500 4100
+F 0 "R14" V 4393 4100 50  0001 C CNN
+F 1 "51000" V 4484 4100 50  0001 C CNN
+F 2 "SMD Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 4530 4100 50  0001 C CNN
+F 3 "~" H 4600 4100 50  0001 C CNN
+	1    4600 4100
 	0    1    1    0   
 $EndComp
 $Comp
-L v3-rescue:R-Device R?
+L pspice:R R?
 U 1 1 60E20D91
-P 4500 3200
+P 4600 3200
 AR Path="/60E20D91" Ref="R?"  Part="1" 
 AR Path="/60B3C664/60E20D91" Ref="R?"  Part="1" 
 AR Path="/60B3C664/60D625EB/60E20D91" Ref="R?"  Part="1" 
@@ -160,11 +160,11 @@ AR Path="/612FF705/60E20D91" Ref="R13"  Part="1"
 AR Path="/612C106E/60E20D91" Ref="R5"  Part="1" 
 AR Path="/612B5551/60E20D91" Ref="R9"  Part="1" 
 AR Path="/612B612B/60E20D91" Ref="R13"  Part="1" 
-F 0 "R5" V 4293 3200 50  0001 C CNN
-F 1 "51000" V 4384 3200 50  0001 C CNN
-F 2 "SMD Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 4430 3200 50  0001 C CNN
-F 3 "~" H 4500 3200 50  0001 C CNN
-	1    4500 3200
+F 0 "R13" V 4393 3200 50  0001 C CNN
+F 1 "51000" V 4484 3200 50  0001 C CNN
+F 2 "SMD Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 4530 3200 50  0001 C CNN
+F 3 "~" H 4600 3200 50  0001 C CNN
+	1    4600 3200
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -179,13 +179,13 @@ Wire Wire Line
 	4350 3300 6300 3300
 Text HLabel 3050 3700 0    50   Input ~ 0
 SDA
-Text HLabel 2750 4100 0    50   Input ~ 0
+Text HLabel 2550 4100 0    50   Input ~ 0
 P1A
-Text HLabel 4650 4100 2    50   Input ~ 0
+Text HLabel 4850 4100 2    50   Input ~ 0
 P0A
-Text HLabel 4650 3200 2    50   Input ~ 0
+Text HLabel 4850 3200 2    50   Input ~ 0
 P2A
-Text HLabel 2750 3200 0    50   Input ~ 0
+Text HLabel 2550 3200 0    50   Input ~ 0
 P3A
 NoConn ~ 4350 3700
 Text HLabel 2750 3500 0    50   Input ~ 0
@@ -206,7 +206,7 @@ AR Path="/612C106E/60D0C2F9" Ref="U3"  Part="1"
 AR Path="/612B5551/60D0C2F9" Ref="U5"  Part="1" 
 AR Path="/612B612B/60D0C2F9" Ref="U7"  Part="1" 
 AR Path="/60D0C2F9" Ref="U6"  Part="1" 
-F 0 "U3" H 7900 5667 50  0000 C CNN
+F 0 "U7" H 7900 5667 50  0000 C CNN
 F 1 "AMPLIFIER-PAM8403" H 7900 5576 50  0000 C CNN
 F 2 "HART:AMPLIFIER-PAM8403" H 7900 5000 50  0001 L BNN
 F 3 "" H 7900 5000 50  0001 L BNN
@@ -292,7 +292,7 @@ AR Path="/612C106E/60CD6CAD" Ref="U2"  Part="1"
 AR Path="/612B5551/60CD6CAD" Ref="U4"  Part="1" 
 AR Path="/612B612B/60CD6CAD" Ref="U6"  Part="1" 
 AR Path="/60CD6CAD" Ref="U5"  Part="1" 
-F 0 "U2" H 7850 3117 50  0000 C CNN
+F 0 "U6" H 7850 3117 50  0000 C CNN
 F 1 "AMPLIFIER-PAM8403" H 7850 3026 50  0000 C CNN
 F 2 "HART:AMPLIFIER-PAM8403" H 7850 2450 50  0001 L BNN
 F 3 "" H 7850 2450 50  0001 L BNN
@@ -338,7 +338,7 @@ AR Path="/612FF705/60E20D4C" Ref="IC3"  Part="1"
 AR Path="/612C106E/60E20D4C" Ref="IC1"  Part="1" 
 AR Path="/612B5551/60E20D4C" Ref="IC2"  Part="1" 
 AR Path="/612B612B/60E20D4C" Ref="IC3"  Part="1" 
-F 0 "IC1" H 3700 3465 50  0001 C CNN
+F 0 "IC3" H 3700 3465 50  0001 C CNN
 F 1 "MCP4451-103E_ST" H 3700 3374 50  0000 C CNN
 F 2 "MCP4451:SOP65P640X120-20N" H 4200 3300 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP4451.pdf" H 4200 3200 50  0001 L CNN
@@ -363,7 +363,8 @@ AR Path="/612B5551/61363135" Ref="C2"  Part="1"
 AR Path="/612FD936/61363135" Ref="C2"  Part="1" 
 AR Path="/60B2095D/61363135" Ref="C1"  Part="1" 
 AR Path="/612FF705/61363135" Ref="C3"  Part="1" 
-F 0 "C1" H 5472 3604 50  0000 R CNN
+AR Path="/61363135" Ref="C1"  Part="1" 
+F 0 "C3" H 5472 3604 50  0000 R CNN
 F 1 "100nF" H 5472 3695 50  0000 R CNN
 F 2 "SMD Capacitor:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 5650 3650 50  0001 C CNN
 F 3 "~" H 5650 3650 50  0001 C CNN

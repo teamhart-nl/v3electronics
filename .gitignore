@@ -1,1 +1,5 @@
 .DS_Store
+
+# Kicad backup files
+*.kicad_pcb-bak
+*.sch-bak

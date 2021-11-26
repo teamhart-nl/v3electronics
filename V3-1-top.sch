@@ -210,10 +210,10 @@ Text GLabel 1250 1150 0    50   Input ~ 0
 SDA1
 Wire Wire Line
 	1250 1150 1350 1150
-Text GLabel 1600 4650 0    50   UnSpc ~ 0
+Text GLabel 1500 4650 0    50   UnSpc ~ 0
 TeensyVDD
 $Comp
-L v3-rescue:R-Device R1
+L pspice:R R1
 U 1 1 61323621
 P 1750 4650
 AR Path="/61323621" Ref="R1"  Part="1" 
@@ -243,10 +243,10 @@ F 3 "~" H 1750 4650 50  0001 C CNN
 	1    1750 4650
 	0    1    1    0   
 $EndComp
-Text GLabel 1600 4800 0    50   UnSpc ~ 0
+Text GLabel 1500 4800 0    50   UnSpc ~ 0
 TeensyVDD
 $Comp
-L v3-rescue:R-Device R2
+L pspice:R R2
 U 1 1 61325776
 P 1750 4800
 AR Path="/61325776" Ref="R2"  Part="1" 
@@ -280,10 +280,6 @@ Text GLabel 2000 4800 2    50   Input ~ 0
 SCL1
 Text GLabel 2000 4650 2    50   Input ~ 0
 SDA1
-Wire Wire Line
-	1900 4800 2000 4800
-Wire Wire Line
-	1900 4650 2000 4650
 Text GLabel 2250 800  2    50   Output ~ 0
 SPEAK13-
 Text GLabel 2250 900  2    50   Output ~ 0

@@ -211,6 +211,20 @@ X ~ 2 0 -250 200 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
+# pspice_R
+#
+DEF pspice_R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "pspice_R" 0 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -40 150 40 -150 0 1 0 N
+X ~ 1 0 250 100 D 50 50 1 1 P
+X ~ 2 0 -250 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # teensy_Teensy4.0-Tall-Dog-Breakout
 #
 DEF teensy_Teensy4.0-Tall-Dog-Breakout U 0 40 Y Y 1 F N
@@ -276,23 +290,6 @@ X VBAT VB 1100 750 200 L 50 50 1 1 W
 X VHOST VHST -1100 1050 200 R 50 50 1 1 w
 X VIN VIN 1100 650 200 L 50 50 1 1 W
 X VUSB VUSB -1100 1150 200 R 50 50 1 1 w
-ENDDRAW
-ENDDEF
-#
-# v3-rescue_R-Device
-#
-DEF v3-rescue_R-Device R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "v3-rescue_R-Device" 0 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

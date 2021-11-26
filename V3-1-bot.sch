@@ -301,8 +301,6 @@ SPEAK6+
 Text GLabel 5850 2500 2    50   Input ~ 0
 SPEAK6-
 Wire Notes Line
-	4100 4600 6350 4600
-Wire Notes Line
 	4100 600  6350 600 
 Wire Wire Line
 	5750 2500 5850 2500
@@ -462,47 +460,43 @@ Wire Notes Line
 	6450 3800 6450 600 
 Text Notes 6600 700  0    50   ~ 0
 SPEAKER CONNECTORS
-Text GLabel 8250 1950 2    50   Input ~ 0
+Text GLabel 8750 1950 2    50   Input ~ 0
 VDD
-Text GLabel 8250 1850 2    50   Input ~ 0
+Text GLabel 8750 1850 2    50   Input ~ 0
 VDD
-Text GLabel 8250 1750 2    50   Input ~ 0
+Text GLabel 8750 1750 2    50   Input ~ 0
 VDD
-Text GLabel 8200 2550 2    50   Input ~ 0
+Text GLabel 8700 2550 2    50   Input ~ 0
 GND
-Text GLabel 8200 2450 2    50   Input ~ 0
+Text GLabel 8700 2450 2    50   Input ~ 0
 GND
-Text GLabel 8200 2350 2    50   Input ~ 0
+Text GLabel 8700 2350 2    50   Input ~ 0
 GND
-NoConn ~ 8250 1650
-Text GLabel 8250 1550 2    50   Input ~ 0
+NoConn ~ 8750 1650
+Text GLabel 8750 1550 2    50   Input ~ 0
 TeensyVDD
-Text GLabel 8200 3150 2    50   Input ~ 0
+Text GLabel 8700 3150 2    50   Input ~ 0
 FREQ11
-Text GLabel 8200 3050 2    50   Input ~ 0
+Text GLabel 8700 3050 2    50   Input ~ 0
 FREQ12
-Text GLabel 8250 1450 2    50   Input ~ 0
+Text GLabel 8750 1450 2    50   Input ~ 0
 FREQ13
-Text GLabel 8250 1350 2    50   Input ~ 0
+Text GLabel 8750 1350 2    50   Input ~ 0
 FREQ14
-Text GLabel 8250 1250 2    50   Input ~ 0
+Text GLabel 8750 1250 2    50   Input ~ 0
 FREQ15
-Text GLabel 8250 1150 2    50   Input ~ 0
+Text GLabel 8750 1150 2    50   Input ~ 0
 FREQ16
-Text GLabel 8200 2850 2    50   BiDi ~ 0
+Text GLabel 8700 2850 2    50   BiDi ~ 0
 SCL1
-Text GLabel 8200 2950 2    50   BiDi ~ 0
+Text GLabel 8700 2950 2    50   BiDi ~ 0
 SDA1
-NoConn ~ 8200 2650
+NoConn ~ 8700 2650
 Wire Notes Line
-	7700 600  8750 600 
+	9250 600  9250 3250
 Wire Notes Line
-	8750 600  8750 3250
-Wire Notes Line
-	8750 3250 7700 3250
-Wire Notes Line
-	7700 3250 7700 600 
-Text Notes 7900 700  0    50   ~ 0
+	7650 3250 7650 600 
+Text Notes 8400 700  0    50   ~ 0
 TOP CONNECTOR
 $Comp
 L power:PWR_FLAG #FLG01
@@ -545,97 +539,21 @@ Wire Notes Line
 	650  6250 4000 6250
 Wire Notes Line
 	650  2800 4000 2800
-Text GLabel 5550 4900 2    50   BiDi ~ 0
+Text GLabel 5600 4900 2    50   BiDi ~ 0
 SDA0
-Text GLabel 5550 4800 2    50   BiDi ~ 0
+Text GLabel 5600 4800 2    50   BiDi ~ 0
 SCL0
 Text GLabel 5100 4900 0    50   UnSpc ~ 0
 TeensyVDD
 Text GLabel 5100 4800 0    50   UnSpc ~ 0
 TeensyVDD
-$Comp
-L v3-rescue:R-Device R1
-U 1 1 6130F6F8
-P 5250 4800
-AR Path="/6130F6F8" Ref="R1"  Part="1" 
-AR Path="/60B3C664/6130F6F8" Ref="R?"  Part="1" 
-AR Path="/60B3C664/60D625EB/6130F6F8" Ref="R?"  Part="1" 
-AR Path="/60B3C664/61161B92/6130F6F8" Ref="R?"  Part="1" 
-AR Path="/60B3C664/611AE4D8/6130F6F8" Ref="R?"  Part="1" 
-AR Path="/60B3C664/611FADDC/6130F6F8" Ref="R?"  Part="1" 
-AR Path="/60B3C664/612476AD/6130F6F8" Ref="R?"  Part="1" 
-AR Path="/60B3C664/61293FB1/6130F6F8" Ref="R?"  Part="1" 
-AR Path="/60B3C664/61415D48/6130F6F8" Ref="R?"  Part="1" 
-AR Path="/60B3C664/614FF167/6130F6F8" Ref="R?"  Part="1" 
-AR Path="/60B3C664/6154BA8C/6130F6F8" Ref="R?"  Part="1" 
-AR Path="/60B3C664/61598387/6130F6F8" Ref="R?"  Part="1" 
-AR Path="/60B3C664/6168007F/6130F6F8" Ref="R?"  Part="1" 
-AR Path="/60B3C664/61680083/6130F6F8" Ref="R?"  Part="1" 
-AR Path="/60B20945/6130F6F8" Ref="R?"  Part="1" 
-AR Path="/60B2094D/6130F6F8" Ref="R?"  Part="1" 
-AR Path="/60B20955/6130F6F8" Ref="R?"  Part="1" 
-AR Path="/60B2095D/6130F6F8" Ref="R?"  Part="1" 
-AR Path="/60B20965/6130F6F8" Ref="R?"  Part="1" 
-AR Path="/60B2096D/6130F6F8" Ref="R?"  Part="1" 
-AR Path="/612FD936/6130F6F8" Ref="R?"  Part="1" 
-AR Path="/612FF705/6130F6F8" Ref="R?"  Part="1" 
-AR Path="/612C106E/6130F6F8" Ref="R?"  Part="1" 
-AR Path="/612B5551/6130F6F8" Ref="R?"  Part="1" 
-AR Path="/612B612B/6130F6F8" Ref="R?"  Part="1" 
-F 0 "R1" V 5043 4800 50  0001 C CNN
-F 1 "2200" V 5134 4800 50  0001 C CNN
-F 2 "SMD Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 5180 4800 50  0001 C CNN
-F 3 "~" H 5250 4800 50  0001 C CNN
-	1    5250 4800
-	0    1    1    0   
-$EndComp
-$Comp
-L v3-rescue:R-Device R2
-U 1 1 613113E0
-P 5250 4900
-AR Path="/613113E0" Ref="R2"  Part="1" 
-AR Path="/60B3C664/613113E0" Ref="R?"  Part="1" 
-AR Path="/60B3C664/60D625EB/613113E0" Ref="R?"  Part="1" 
-AR Path="/60B3C664/61161B92/613113E0" Ref="R?"  Part="1" 
-AR Path="/60B3C664/611AE4D8/613113E0" Ref="R?"  Part="1" 
-AR Path="/60B3C664/611FADDC/613113E0" Ref="R?"  Part="1" 
-AR Path="/60B3C664/612476AD/613113E0" Ref="R?"  Part="1" 
-AR Path="/60B3C664/61293FB1/613113E0" Ref="R?"  Part="1" 
-AR Path="/60B3C664/61415D48/613113E0" Ref="R?"  Part="1" 
-AR Path="/60B3C664/614FF167/613113E0" Ref="R?"  Part="1" 
-AR Path="/60B3C664/6154BA8C/613113E0" Ref="R?"  Part="1" 
-AR Path="/60B3C664/61598387/613113E0" Ref="R?"  Part="1" 
-AR Path="/60B3C664/6168007F/613113E0" Ref="R?"  Part="1" 
-AR Path="/60B3C664/61680083/613113E0" Ref="R?"  Part="1" 
-AR Path="/60B20945/613113E0" Ref="R?"  Part="1" 
-AR Path="/60B2094D/613113E0" Ref="R?"  Part="1" 
-AR Path="/60B20955/613113E0" Ref="R?"  Part="1" 
-AR Path="/60B2095D/613113E0" Ref="R?"  Part="1" 
-AR Path="/60B20965/613113E0" Ref="R?"  Part="1" 
-AR Path="/60B2096D/613113E0" Ref="R?"  Part="1" 
-AR Path="/612FD936/613113E0" Ref="R?"  Part="1" 
-AR Path="/612FF705/613113E0" Ref="R?"  Part="1" 
-AR Path="/612C106E/613113E0" Ref="R?"  Part="1" 
-AR Path="/612B5551/613113E0" Ref="R?"  Part="1" 
-AR Path="/612B612B/613113E0" Ref="R?"  Part="1" 
-F 0 "R2" V 5043 4900 50  0001 C CNN
-F 1 "2200" V 5134 4900 50  0001 C CNN
-F 2 "SMD Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 5180 4900 50  0001 C CNN
-F 3 "~" H 5250 4900 50  0001 C CNN
-	1    5250 4900
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5400 4800 5550 4800
-Wire Wire Line
-	5400 4900 5550 4900
 Wire Notes Line
 	4100 5100 6350 5100
 Wire Notes Line
 	6350 600  6350 5100
 Wire Notes Line
 	4100 600  4100 5100
-Text Notes 5000 4700 0    50   ~ 0
+Text Notes 5050 4700 0    50   ~ 0
 I2C PULL-UP
 Text GLabel 1300 3950 0    50   Output ~ 0
 TeensyGND
@@ -667,9 +585,9 @@ NoConn ~ 1300 3850
 NoConn ~ 1300 5450
 NoConn ~ 1300 5550
 NoConn ~ 1300 5650
-Text Notes 7950 1700 1    50   ~ 0
+Text Notes 8450 1700 1    50   ~ 0
 CONN LEFT
-Text Notes 7950 2950 1    50   ~ 0
+Text Notes 8450 2950 1    50   ~ 0
 CONN RIGHT
 Wire Wire Line
 	2550 1150 2700 1150
@@ -695,67 +613,67 @@ Internally powered with CR battery\n
 $Comp
 L Connector:Conn_01x03_Female J9
 U 1 1 612BCB34
-P 8050 1850
-F 0 "J9" H 8078 1876 50  0000 L CNN
-F 1 "Conn_01x03_Female" H 8078 1785 50  0000 L CNN
-F 2 "Pin Socket 2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 8050 1850 50  0001 C CNN
-F 3 "~" H 8050 1850 50  0001 C CNN
-	1    8050 1850
+P 8550 1850
+F 0 "J9" H 8578 1876 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 8578 1785 50  0000 L CNN
+F 2 "Pin Socket 2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 8550 1850 50  0001 C CNN
+F 3 "~" H 8550 1850 50  0001 C CNN
+	1    8550 1850
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:Conn_01x03_Female J8
 U 1 1 612C6BE2
-P 8050 1550
-F 0 "J8" H 8078 1576 50  0000 L CNN
-F 1 "Conn_01x03_Female" H 8078 1485 50  0000 L CNN
-F 2 "Pin Socket 2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 8050 1550 50  0001 C CNN
-F 3 "~" H 8050 1550 50  0001 C CNN
-	1    8050 1550
+P 8550 1550
+F 0 "J8" H 8578 1576 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 8578 1485 50  0000 L CNN
+F 2 "Pin Socket 2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 8550 1550 50  0001 C CNN
+F 3 "~" H 8550 1550 50  0001 C CNN
+	1    8550 1550
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:Conn_01x03_Female J7
 U 1 1 612C9532
-P 8050 1250
-F 0 "J7" H 8078 1276 50  0000 L CNN
-F 1 "Conn_01x03_Female" H 8078 1185 50  0000 L CNN
-F 2 "Pin Socket 2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 8050 1250 50  0001 C CNN
-F 3 "~" H 8050 1250 50  0001 C CNN
-	1    8050 1250
+P 8550 1250
+F 0 "J7" H 8578 1276 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 8578 1185 50  0000 L CNN
+F 2 "Pin Socket 2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 8550 1250 50  0001 C CNN
+F 3 "~" H 8550 1250 50  0001 C CNN
+	1    8550 1250
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:Conn_01x03_Female J4
 U 1 1 612D2597
-P 8000 2450
-F 0 "J4" H 8028 2476 50  0000 L CNN
-F 1 "Conn_01x03_Female" H 8028 2385 50  0000 L CNN
-F 2 "Pin Socket 2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 8000 2450 50  0001 C CNN
-F 3 "~" H 8000 2450 50  0001 C CNN
-	1    8000 2450
+P 8500 2450
+F 0 "J4" H 8528 2476 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 8528 2385 50  0000 L CNN
+F 2 "Pin Socket 2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 8500 2450 50  0001 C CNN
+F 3 "~" H 8500 2450 50  0001 C CNN
+	1    8500 2450
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:Conn_01x03_Female J5
 U 1 1 612D4A68
-P 8000 2750
-F 0 "J5" H 8028 2776 50  0000 L CNN
-F 1 "Conn_01x03_Female" H 8028 2685 50  0000 L CNN
-F 2 "Pin Socket 2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 8000 2750 50  0001 C CNN
-F 3 "~" H 8000 2750 50  0001 C CNN
-	1    8000 2750
+P 8500 2750
+F 0 "J5" H 8528 2776 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 8528 2685 50  0000 L CNN
+F 2 "Pin Socket 2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 8500 2750 50  0001 C CNN
+F 3 "~" H 8500 2750 50  0001 C CNN
+	1    8500 2750
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:Conn_01x03_Female J6
 U 1 1 612D7199
-P 8000 3050
-F 0 "J6" H 8028 3076 50  0000 L CNN
-F 1 "Conn_01x03_Female" H 8028 2985 50  0000 L CNN
-F 2 "Pin Socket 2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 8000 3050 50  0001 C CNN
-F 3 "~" H 8000 3050 50  0001 C CNN
-	1    8000 3050
+P 8500 3050
+F 0 "J6" H 8528 3076 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 8528 2985 50  0000 L CNN
+F 2 "Pin Socket 2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 8500 3050 50  0001 C CNN
+F 3 "~" H 8500 3050 50  0001 C CNN
+	1    8500 3050
 	-1   0    0    1   
 $EndComp
 NoConn ~ 1300 5350
@@ -765,5 +683,83 @@ NoConn ~ 1300 4950
 NoConn ~ 1300 4850
 NoConn ~ 1300 4350
 NoConn ~ 3500 4450
-NoConn ~ 8200 2750
+NoConn ~ 8700 2750
+Wire Notes Line
+	4100 4600 6350 4600
+$Comp
+L pspice:R R2
+U 1 1 613113E0
+P 5350 4900
+AR Path="/613113E0" Ref="R2"  Part="1" 
+AR Path="/60B3C664/613113E0" Ref="R?"  Part="1" 
+AR Path="/60B3C664/60D625EB/613113E0" Ref="R?"  Part="1" 
+AR Path="/60B3C664/61161B92/613113E0" Ref="R?"  Part="1" 
+AR Path="/60B3C664/611AE4D8/613113E0" Ref="R?"  Part="1" 
+AR Path="/60B3C664/611FADDC/613113E0" Ref="R?"  Part="1" 
+AR Path="/60B3C664/612476AD/613113E0" Ref="R?"  Part="1" 
+AR Path="/60B3C664/61293FB1/613113E0" Ref="R?"  Part="1" 
+AR Path="/60B3C664/61415D48/613113E0" Ref="R?"  Part="1" 
+AR Path="/60B3C664/614FF167/613113E0" Ref="R?"  Part="1" 
+AR Path="/60B3C664/6154BA8C/613113E0" Ref="R?"  Part="1" 
+AR Path="/60B3C664/61598387/613113E0" Ref="R?"  Part="1" 
+AR Path="/60B3C664/6168007F/613113E0" Ref="R?"  Part="1" 
+AR Path="/60B3C664/61680083/613113E0" Ref="R?"  Part="1" 
+AR Path="/60B20945/613113E0" Ref="R?"  Part="1" 
+AR Path="/60B2094D/613113E0" Ref="R?"  Part="1" 
+AR Path="/60B20955/613113E0" Ref="R?"  Part="1" 
+AR Path="/60B2095D/613113E0" Ref="R?"  Part="1" 
+AR Path="/60B20965/613113E0" Ref="R?"  Part="1" 
+AR Path="/60B2096D/613113E0" Ref="R?"  Part="1" 
+AR Path="/612FD936/613113E0" Ref="R?"  Part="1" 
+AR Path="/612FF705/613113E0" Ref="R?"  Part="1" 
+AR Path="/612C106E/613113E0" Ref="R?"  Part="1" 
+AR Path="/612B5551/613113E0" Ref="R?"  Part="1" 
+AR Path="/612B612B/613113E0" Ref="R?"  Part="1" 
+F 0 "R2" V 5143 4900 50  0001 C CNN
+F 1 "2200" V 5234 4900 50  0001 C CNN
+F 2 "SMD Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 5280 4900 50  0001 C CNN
+F 3 "~" H 5350 4900 50  0001 C CNN
+	1    5350 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:R R1
+U 1 1 6130F6F8
+P 5350 4800
+AR Path="/6130F6F8" Ref="R1"  Part="1" 
+AR Path="/60B3C664/6130F6F8" Ref="R?"  Part="1" 
+AR Path="/60B3C664/60D625EB/6130F6F8" Ref="R?"  Part="1" 
+AR Path="/60B3C664/61161B92/6130F6F8" Ref="R?"  Part="1" 
+AR Path="/60B3C664/611AE4D8/6130F6F8" Ref="R?"  Part="1" 
+AR Path="/60B3C664/611FADDC/6130F6F8" Ref="R?"  Part="1" 
+AR Path="/60B3C664/612476AD/6130F6F8" Ref="R?"  Part="1" 
+AR Path="/60B3C664/61293FB1/6130F6F8" Ref="R?"  Part="1" 
+AR Path="/60B3C664/61415D48/6130F6F8" Ref="R?"  Part="1" 
+AR Path="/60B3C664/614FF167/6130F6F8" Ref="R?"  Part="1" 
+AR Path="/60B3C664/6154BA8C/6130F6F8" Ref="R?"  Part="1" 
+AR Path="/60B3C664/61598387/6130F6F8" Ref="R?"  Part="1" 
+AR Path="/60B3C664/6168007F/6130F6F8" Ref="R?"  Part="1" 
+AR Path="/60B3C664/61680083/6130F6F8" Ref="R?"  Part="1" 
+AR Path="/60B20945/6130F6F8" Ref="R?"  Part="1" 
+AR Path="/60B2094D/6130F6F8" Ref="R?"  Part="1" 
+AR Path="/60B20955/6130F6F8" Ref="R?"  Part="1" 
+AR Path="/60B2095D/6130F6F8" Ref="R?"  Part="1" 
+AR Path="/60B20965/6130F6F8" Ref="R?"  Part="1" 
+AR Path="/60B2096D/6130F6F8" Ref="R?"  Part="1" 
+AR Path="/612FD936/6130F6F8" Ref="R?"  Part="1" 
+AR Path="/612FF705/6130F6F8" Ref="R?"  Part="1" 
+AR Path="/612C106E/6130F6F8" Ref="R?"  Part="1" 
+AR Path="/612B5551/6130F6F8" Ref="R?"  Part="1" 
+AR Path="/612B612B/6130F6F8" Ref="R?"  Part="1" 
+F 0 "R1" V 5143 4800 50  0001 C CNN
+F 1 "2200" V 5234 4800 50  0001 C CNN
+F 2 "SMD Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 5280 4800 50  0001 C CNN
+F 3 "~" H 5350 4800 50  0001 C CNN
+	1    5350 4800
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	7650 600  9250 600 
+Wire Notes Line
+	7650 3250 9250 3250
 $EndSCHEMATC
