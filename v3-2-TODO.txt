@@ -1,0 +1,3 @@
+* reverse polarity protection
+* PCB
+* tooling holes

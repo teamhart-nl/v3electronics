@@ -1,0 +1,232 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 19
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PAM8406:PAM8406DR IC4
+U 1 1 61A6B120
+P 5600 3600
+AR Path="/612C106E/61A6AB67/61A6B120" Ref="IC4"  Part="1" 
+AR Path="/612B5551/61A6AB67/61A6B120" Ref="IC6"  Part="1" 
+AR Path="/612B612B/61A6AB67/61A6B120" Ref="IC8"  Part="1" 
+AR Path="/612C106E/61A7FB60/61A6B120" Ref="IC5"  Part="1" 
+AR Path="/612B5551/61A7FB60/61A6B120" Ref="IC7"  Part="1" 
+AR Path="/612B612B/61A7FB60/61A6B120" Ref="IC9"  Part="1" 
+AR Path="/61A95E2F/61A6AB67/61A6B120" Ref="IC11"  Part="1" 
+AR Path="/61A95E2F/61A7FB60/61A6B120" Ref="IC12"  Part="1" 
+AR Path="/61A95E42/61A6AB67/61A6B120" Ref="IC14"  Part="1" 
+AR Path="/61A95E42/61A7FB60/61A6B120" Ref="IC15"  Part="1" 
+AR Path="/61A95E54/61A6AB67/61A6B120" Ref="IC17"  Part="1" 
+AR Path="/61A95E54/61A7FB60/61A6B120" Ref="IC18"  Part="1" 
+F 0 "IC4" H 6250 3865 50  0000 C CNN
+F 1 "PAM8406DR" H 6250 3774 50  0000 C CNN
+F 2 "PAM8406:SOIC127P605X175-16N" H 6750 3700 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/PAM8406.pdf" H 6750 3600 50  0001 L CNN
+F 4 "DiodesZetex PAM8406DR 2-Channel Audio Amplifier, Class-AB, Class-D Stereo, 16-Pin SOP" H 6750 3500 50  0001 L CNN "Description"
+F 5 "1.75" H 6750 3400 50  0001 L CNN "Height"
+F 6 "Diodes Inc." H 6750 3300 50  0001 L CNN "Manufacturer_Name"
+F 7 "PAM8406DR" H 6750 3200 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "621-PAM8406DR" H 6750 3100 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/PAM8406DR?qs=%252BSlWJf1dfkLK5VNh%252Bez%2F0Q%3D%3D" H 6750 3000 50  0001 L CNN "Mouser Price/Stock"
+F 10 "PAM8406DR" H 6750 2900 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/pam8406dr/diodes-incorporated" H 6750 2800 50  0001 L CNN "Arrow Price/Stock"
+	1    5600 3600
+	1    0    0    -1  
+$EndComp
+Text HLabel 5600 3600 0    50   Output ~ 0
+OUT_L+
+Text HLabel 5600 3800 0    50   Output ~ 0
+OUT_L-
+Text HLabel 6900 3600 2    50   Output ~ 0
+OUT_R+
+Text HLabel 6900 3800 2    50   Output ~ 0
+OUT_R-
+Text HLabel 5600 4200 0    50   Input ~ 0
+IN.L
+Text HLabel 6900 4200 2    50   Input ~ 0
+IN.R
+$Comp
+L pspice:C C5
+U 1 1 61A6D90B
+P 5750 2550
+AR Path="/612C106E/61A6AB67/61A6D90B" Ref="C5"  Part="1" 
+AR Path="/612B5551/61A6AB67/61A6D90B" Ref="C13"  Part="1" 
+AR Path="/612B612B/61A6AB67/61A6D90B" Ref="C21"  Part="1" 
+AR Path="/612C106E/61A7FB60/61A6D90B" Ref="C9"  Part="1" 
+AR Path="/612B5551/61A7FB60/61A6D90B" Ref="C17"  Part="1" 
+AR Path="/612B612B/61A7FB60/61A6D90B" Ref="C25"  Part="1" 
+AR Path="/61A95E2F/61A6AB67/61A6D90B" Ref="C30"  Part="1" 
+AR Path="/61A95E2F/61A7FB60/61A6D90B" Ref="C34"  Part="1" 
+AR Path="/61A95E42/61A6AB67/61A6D90B" Ref="C39"  Part="1" 
+AR Path="/61A95E42/61A7FB60/61A6D90B" Ref="C43"  Part="1" 
+AR Path="/61A95E54/61A6AB67/61A6D90B" Ref="C48"  Part="1" 
+AR Path="/61A95E54/61A7FB60/61A6D90B" Ref="C52"  Part="1" 
+F 0 "C5" H 5928 2596 50  0000 L CNN
+F 1 "1uF" H 5928 2505 50  0000 L CNN
+F 2 "SMD Capacitor:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 5750 2550 50  0001 C CNN
+F 3 "~" H 5750 2550 50  0001 C CNN
+	1    5750 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:C C6
+U 1 1 61A6EBA1
+P 6250 2550
+AR Path="/612C106E/61A6AB67/61A6EBA1" Ref="C6"  Part="1" 
+AR Path="/612B5551/61A6AB67/61A6EBA1" Ref="C14"  Part="1" 
+AR Path="/612B612B/61A6AB67/61A6EBA1" Ref="C22"  Part="1" 
+AR Path="/612C106E/61A7FB60/61A6EBA1" Ref="C10"  Part="1" 
+AR Path="/612B5551/61A7FB60/61A6EBA1" Ref="C18"  Part="1" 
+AR Path="/612B612B/61A7FB60/61A6EBA1" Ref="C26"  Part="1" 
+AR Path="/61A95E2F/61A6AB67/61A6EBA1" Ref="C31"  Part="1" 
+AR Path="/61A95E2F/61A7FB60/61A6EBA1" Ref="C35"  Part="1" 
+AR Path="/61A95E42/61A6AB67/61A6EBA1" Ref="C40"  Part="1" 
+AR Path="/61A95E42/61A7FB60/61A6EBA1" Ref="C44"  Part="1" 
+AR Path="/61A95E54/61A6AB67/61A6EBA1" Ref="C49"  Part="1" 
+AR Path="/61A95E54/61A7FB60/61A6EBA1" Ref="C53"  Part="1" 
+F 0 "C6" H 6428 2596 50  0000 L CNN
+F 1 "1uF" H 6428 2505 50  0000 L CNN
+F 2 "SMD Capacitor:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 6250 2550 50  0001 C CNN
+F 3 "~" H 6250 2550 50  0001 C CNN
+	1    6250 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:C C7
+U 1 1 61A6EE82
+P 6750 2550
+AR Path="/612C106E/61A6AB67/61A6EE82" Ref="C7"  Part="1" 
+AR Path="/612B5551/61A6AB67/61A6EE82" Ref="C15"  Part="1" 
+AR Path="/612B612B/61A6AB67/61A6EE82" Ref="C23"  Part="1" 
+AR Path="/612C106E/61A7FB60/61A6EE82" Ref="C11"  Part="1" 
+AR Path="/612B5551/61A7FB60/61A6EE82" Ref="C19"  Part="1" 
+AR Path="/612B612B/61A7FB60/61A6EE82" Ref="C27"  Part="1" 
+AR Path="/61A95E2F/61A6AB67/61A6EE82" Ref="C32"  Part="1" 
+AR Path="/61A95E2F/61A7FB60/61A6EE82" Ref="C36"  Part="1" 
+AR Path="/61A95E42/61A6AB67/61A6EE82" Ref="C41"  Part="1" 
+AR Path="/61A95E42/61A7FB60/61A6EE82" Ref="C45"  Part="1" 
+AR Path="/61A95E54/61A6AB67/61A6EE82" Ref="C50"  Part="1" 
+AR Path="/61A95E54/61A7FB60/61A6EE82" Ref="C54"  Part="1" 
+F 0 "C7" H 6928 2596 50  0000 L CNN
+F 1 "1uF" H 6928 2505 50  0000 L CNN
+F 2 "SMD Capacitor:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 6750 2550 50  0001 C CNN
+F 3 "~" H 6750 2550 50  0001 C CNN
+	1    6750 2550
+	1    0    0    -1  
+$EndComp
+Text GLabel 6250 2000 1    50   Input ~ 0
+VDD
+Wire Wire Line
+	6250 2000 6250 2300
+Wire Wire Line
+	6750 2000 6750 2300
+Wire Wire Line
+	6250 2000 5750 2000
+Wire Wire Line
+	5750 2000 5750 2300
+Connection ~ 6250 2000
+Wire Wire Line
+	6250 2000 6750 2000
+Text HLabel 5100 3700 0    50   UnSpc ~ 0
+IN.COM
+Wire Wire Line
+	5100 3700 5150 3700
+Wire Wire Line
+	5150 3700 5150 3250
+Wire Wire Line
+	7400 3250 7400 3700
+Wire Wire Line
+	7400 3700 6900 3700
+Connection ~ 5150 3700
+Wire Wire Line
+	5150 3700 5600 3700
+Wire Wire Line
+	5750 2000 4700 2000
+Wire Wire Line
+	4700 2000 4700 3900
+Wire Wire Line
+	4700 3900 5600 3900
+Connection ~ 5750 2000
+Wire Wire Line
+	6750 2000 7500 2000
+Wire Wire Line
+	7500 2000 7500 3900
+Wire Wire Line
+	7500 3900 6900 3900
+Connection ~ 6750 2000
+Wire Wire Line
+	4700 3900 4700 4100
+Wire Wire Line
+	4700 4100 5600 4100
+Connection ~ 4700 3900
+Text GLabel 6900 4300 2    50   UnSpc ~ 0
+TeensyVDD
+Text GLabel 6300 4950 3    50   UnSpc ~ 0
+GND
+Text GLabel 6900 4000 2    50   UnSpc ~ 0
+GND
+Text GLabel 5600 4000 0    50   UnSpc ~ 0
+GND
+Wire Wire Line
+	5750 2800 5750 3250
+Wire Wire Line
+	5150 3250 5750 3250
+Connection ~ 5750 3250
+Wire Wire Line
+	5750 3250 6250 3250
+Wire Wire Line
+	6250 2800 6250 3250
+Connection ~ 6250 3250
+Wire Wire Line
+	6250 3250 6750 3250
+Wire Wire Line
+	6750 2800 6750 3250
+Connection ~ 6750 3250
+Wire Wire Line
+	6750 3250 7400 3250
+$Comp
+L pspice:C C4
+U 1 1 61A79135
+P 5600 4550
+AR Path="/612C106E/61A6AB67/61A79135" Ref="C4"  Part="1" 
+AR Path="/612B5551/61A6AB67/61A79135" Ref="C12"  Part="1" 
+AR Path="/612B612B/61A6AB67/61A79135" Ref="C20"  Part="1" 
+AR Path="/612C106E/61A7FB60/61A79135" Ref="C8"  Part="1" 
+AR Path="/612B5551/61A7FB60/61A79135" Ref="C16"  Part="1" 
+AR Path="/612B612B/61A7FB60/61A79135" Ref="C24"  Part="1" 
+AR Path="/61A95E2F/61A6AB67/61A79135" Ref="C29"  Part="1" 
+AR Path="/61A95E2F/61A7FB60/61A79135" Ref="C33"  Part="1" 
+AR Path="/61A95E42/61A6AB67/61A79135" Ref="C38"  Part="1" 
+AR Path="/61A95E42/61A7FB60/61A79135" Ref="C42"  Part="1" 
+AR Path="/61A95E54/61A6AB67/61A79135" Ref="C47"  Part="1" 
+AR Path="/61A95E54/61A7FB60/61A79135" Ref="C51"  Part="1" 
+F 0 "C4" H 5778 4596 50  0000 L CNN
+F 1 "1uF" H 5778 4505 50  0000 L CNN
+F 2 "SMD Capacitor:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 5600 4550 50  0001 C CNN
+F 3 "~" H 5600 4550 50  0001 C CNN
+	1    5600 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 4100 7500 4100
+Wire Wire Line
+	7500 4100 7500 4800
+Wire Wire Line
+	7500 4800 6300 4800
+Wire Wire Line
+	6300 4950 6300 4800
+Connection ~ 6300 4800
+Wire Wire Line
+	6300 4800 5600 4800
+$EndSCHEMATC

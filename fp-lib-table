@@ -11,4 +11,5 @@
   (lib (name "DIY modules")(type KiCad)(uri ${KIPRJMOD}/kicad-packages/DIY/diy-modules.lbr)(options "")(descr ""))
   (lib (name HART)(type KiCad)(uri ${KIPRJMOD}/kicad-packages/HART)(options "")(descr ""))
   (lib (name PowerPole)(type KiCad)(uri ${KIPRJMOD}/kicad-packages/Connectors_Anderson.pretty)(options "")(descr ""))
+  (lib (name PAM8406)(type KiCad)(uri ${KIPRJMOD}/kicad-packages/PAM8406DR/KiCad)(options "")(descr ""))
 )

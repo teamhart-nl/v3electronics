@@ -8,4 +8,5 @@
   (lib (name HW104)(type Legacy)(uri ${KIPRJMOD}/kicad-packages/ARDUINO-PRO-MINI-__NP/ARDUINO-PRO-MINI-__NP.lib)(options "")(descr ""))
   (lib (name PAM8403-1)(type Legacy)(uri ${KIPRJMOD}/kicad-packages/AMPLIFIER-PAM8403/AMPLIFIER-PAM8403.lib)(options "")(descr ""))
   (lib (name pspice)(type Legacy)(uri ${KIPRJMOD}/kicad-packages/kicad-symbols/pspice.lib)(options "")(descr ""))
+  (lib (name PAM8406)(type Legacy)(uri ${KIPRJMOD}/kicad-packages/PAM8406DR/KiCad/PAM8406DR.lib)(options "")(descr ""))
 )
